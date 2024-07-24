@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View in pc for best result</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative; /* Ensure positioning for iframe */
+        }
+
+        #space-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 2s infinite ease-in-out alternate, moveStar 50s linear infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+
+        @keyframes moveStar {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(100vw); }
+        }
+
+        .planet {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(0, 100, 255, 0.8);
+            width: 400px;
+            height: 400px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .sun {
+            position: absolute;
+            border-radius: 50%;
+            background: yellow;
+            width: 150px;
+            height: 150px;
+            box-shadow: 0 0 50px rgba(255, 255, 0, 0.8);
+            animation: sunGlow 3s infinite;
+            top: 10%;
+            left: 70%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes sunGlow {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+
+        #sun-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: yellow;
+            z-index: 2;
+            max-width: 90%;
+            box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+        }
+
+        #sun-message p {
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        #sun-message button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            background: #FF6347;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #envelope {
+            position: absolute;
+            width: 300px;
+            height: 250px;
+            background: #FFC0CB; /* Pink color */
+            cursor: pointer;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #envelope .front {
+            color: black; /* Black text color */
+        }
+
+        #envelope .message {
+            display: none;
+            margin-top: 10px;
+            font-size: 14px;
+            color: red; /* Red text color */
+            max-height: 100%;
+            overflow: auto;
+        }
+
+        .highlighted {
+            font-weight: bold;
+            color: black; /* Black text color */
+        }
+
+        .fireworks {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .firework {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: white;
+            border-radius: 50%;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .firework.explode {
+            animation: explode 1s ease-out forwards;
+        }
+
+        @keyframes explode {
+            0% { opacity: 1; transform: scale(1); }
+            100% { opacity: 0; transform: scale(3); }
+        }
+
+        .animated-planet {
+            position: absolute;
+            border-radius: 50%;
+            background: white;
+            width: 30px;
+            height: 30px;
+            animation: orbit 20s linear infinite;
+        }
+
+        @keyframes orbit {
+            from { transform: rotate(0deg) translateX(300px) rotate(0deg); }
+            to { transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+        }
+
+        .envelope-icon {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            top: 10%;
+            left: 10%;
+        }
+
+        .envelope-icon p {
+            font-size: 10px;
+            margin: 0;
+            text-align: center;
+            color: black;
+        }
+
+        .click-me {
+            color: black; /* Black color for "click me" text */
+            cursor: pointer;
+            display: inline;
+        }
+
+        iframe {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            border: none;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div id="space-background"></div>
+    <div class="planet">
+        <div id="envelope" onclick="openEnvelope()">
+            <div class="front">
+                For Lucky not Lakki, from Delhi not Andhra
+            </div>
+            <div class="message">
+                <p>Happy birthday, Lucky, again! I know you're stressed about your exams. But remember this quote by Camus: "In the midst of exams, I found there was, within me, an invincible focus."</p>
+                <p>Chhhi kya joke mara hai but hans lena aur exam achhe se dena jo already aadha ya usse jada ho chuka hoga. Baki take care of yourself and your health. I also wanted to recommend a book called Raag Darbaari by Shrilal Shukla. It's a satirical work set in rural Uttar Pradesh. You might enjoy it even more in the original Hindi, but the English translation is also great! (Just a suggestion, no pressure).</p>
+                <p>What's the update on Peaky Foooking Blinders? How far along are you? Aur us din Aryan wali baat aaadhi rah gayi thi you said wo BKl fir dusra topic shuru ho gaya. Aur ek baat batani thi college ki us din batane wala tha par dimag se hi nikal gaya tha. Ye desk se related hai(niche section me hai.</p>
+                <p class="highlighted">College Sair Sapata, Rashi is still here <span class="click-me" onclick="openCollegePage()">click me</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="sun" onclick="openSunMessage()">
+        <div class="envelope-icon">
+            <p>Click me!</p>
+        </div>
+    </div>
+    <div id="sun-message">
+        <p>Happy birthday Sadhvi ji.<br>
+        Suryadev ka aapke charno me koti koti pranam.<br>
+        Ishwar aapko safal banaye.</p>
+        <button onclick="closeSunMessage()">Close</button>
+    </div>
+    <div class="fireworks"></div>
+
+    <iframe id="college-iframe" src="college.html" style="display:none;"></iframe>
+
+    <audio id="happy-birthday-tune" src="happybirthday.mp3" preload="auto"></audio>
+
+    <script>
+        function openEnvelope() {
+            document.querySelector('#envelope .message').style.display = 'block';
+            playFireworks();
+            document.getElementById('happy-birthday-tune').play();
+        }
+
+        function openSunMessage() {
+            document.getElementById('sun-message').style.display = 'block';
+        }
+
+        function closeSunMessage() {
+            document.getElementById('sun-message').style.display = 'none';
+        }
+
+        function openCollegePage() {
+            document.getElementById('college-iframe').style.display = 'block';
+            document.getElementById('college-iframe').contentWindow.location.reload(); // Reloads the iframe content
+        }
+
+        function createCelestialElements() {
+            const spaceBackground = document.getElementById('space-background');
+
+            // Stars
+            for (let i = 0; i < 100; i++) {
+                const star = document.createElement('div');
+                star.classList.add('star');
+                star.style.top = Math.random() * 100 + '%';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.animationDuration = Math.random() * 2 + 's'; // Random duration for twinkling
+                star.style.animationDelay = Math.random() * 50 + 's'; // Random delay for movement
+                spaceBackground.appendChild(star);
+            }
+
+            // Planets
+            for (let i = 0; i < 5; i++) {
+                const planet = document.createElement('div');
+                planet.classList.add('animated-planet');
+                planet.style.top = Math.random() * 100 + '%';
+                planet.style.left = Math.random() * 100 + '%';
+                planet.style.background = 'white'; // All white planets
+                planet.style.animationDuration = (Math.random() * 10 + 10) + 's'; // Random duration for orbit
+                spaceBackground.appendChild(planet);
+            }
+
+            // Additional celestial elements
+            const comet = document.createElement('div');
+            comet.classList.add('animated-planet');
+            comet.style.width = '70px';
+            comet.style.height = '70px';
+            comet.style.background = 'linear-gradient(to bottom, white, transparent)';
+            comet.style.borderRadius = '50%';
+            comet.style.boxShadow = '0 0 10px white';
+            comet.style.top = '30%';
+            comet.style.left = '80%';
+            comet.style.animation = 'cometMove 10s linear infinite';
+            spaceBackground.appendChild(comet);
+        }
+
+        function playFireworks() {
+            const fireworksContainer = document.querySelector('.fireworks');
+            for (let i = 0; i < 20; i++) {
+                const firework = document.createElement('div');
+                firework.classList.add('firework');
+                firework.style.top = Math.random() * 100 + '%';
+                firework.style.left = Math.random() * 100 + '%';
+                fireworksContainer.appendChild(firework);
+                setTimeout(() => firework.classList.add('explode'), Math.random() * 1000);
+            }
+        }
+
+        createCelestialElements();
+    </script>
+</body>
+</html>
