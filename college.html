@@ -199,7 +199,7 @@
 <body>
     <div class="page">
         <div class="top-nav">
-            <button class="back-button home-button" onclick="exitToHome()" aria-label="Back to home page" title="Back to home page">Home</button>
+            <button class="back-button home-button" onclick="exitToHome()" title="Back to home page">Home</button>
         </div>
         <section id="college-gate" class="portal-section is-active">
             <div class="gate-card">
@@ -378,9 +378,12 @@
 
         function exitToHome() {
             const parentWindow = window.parent;
-            if (parentWindow && parentWindow !== window && typeof parentWindow.closeCollegePage === 'function') {
-                parentWindow.closeCollegePage();
-                return;
+            try {
+                if (parentWindow && parentWindow !== window && typeof parentWindow.closeCollegePage === 'function') {
+                    parentWindow.closeCollegePage();
+                    return;
+                }
+            } catch (error) {
             }
             window.location.href = HOME_PATH;
         }
