@@ -199,7 +199,7 @@
 <body data-home-path="index.html">
     <div class="page">
         <div class="top-nav">
-            <button class="back-button home-button" onclick="exitToHome()" aria-label="Return to home page">Home</button>
+            <button id="home-button" class="back-button home-button" aria-label="Return to home page">Home</button>
         </div>
         <section id="college-gate" class="portal-section is-active">
             <div class="gate-card">
@@ -380,7 +380,7 @@
             const parentWindow = window.parent;
             let canClose = false;
             try {
-                canClose = (parentWindow && parentWindow !== window)
+                canClose = parentWindow && parentWindow !== window
                     && typeof parentWindow.closeCollegePage === 'function';
             } catch (error) {
                 canClose = false;
@@ -392,6 +392,11 @@
             }
 
             window.location.href = HOME_PATH;
+        }
+
+        const homeButton = document.getElementById('home-button');
+        if (homeButton) {
+            homeButton.addEventListener('click', exitToHome);
         }
 
         function enterCollege() {
