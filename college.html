@@ -380,8 +380,8 @@
             const parentWindow = window.parent;
             let canClose = false;
             try {
-                const isEmbedded = parentWindow && parentWindow !== window;
-                canClose = isEmbedded && typeof parentWindow.closeCollegePage === 'function';
+                canClose = (parentWindow && parentWindow !== window)
+                    && typeof parentWindow.closeCollegePage === 'function';
             } catch (error) {
                 canClose = false;
             }
