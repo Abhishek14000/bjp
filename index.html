@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View in pc for the best result</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --bg-deep: #05070f;
+            --bg-aurora: #101b3d;
+            --accent-gold: #f5d28a;
+            --accent-pink: #ffb2c8;
+            --accent-lilac: #b9c6ff;
+            --text-primary: #f8f5ff;
+            --text-muted: #c8c9d6;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            height: 100vh;
+            background: radial-gradient(circle at 20% 20%, rgba(62, 84, 175, 0.35), transparent 55%),
+                radial-gradient(circle at 80% 10%, rgba(255, 192, 203, 0.3), transparent 45%),
+                radial-gradient(circle at 50% 80%, rgba(24, 32, 72, 0.9), transparent 70%),
+                var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Poppins', 'Segoe UI', sans-serif;
+            min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            position: relative; /* Ensure positioning for iframe */
+            position: relative;
         }
 
         #space-background {
@@ -27,6 +47,8 @@
             height: 100%;
             z-index: -1;
             overflow: hidden;
+            pointer-events: none;
+            opacity: 0.7;
         }
 
         .star {
@@ -48,102 +70,161 @@
             100% { transform: translateX(100vw); }
         }
 
-        .planet {
+        @keyframes cometMove {
+            0% { transform: translate(0, 0) rotate(15deg); opacity: 0; }
+            20% { opacity: 1; }
+            100% { transform: translate(-120vw, 80vh) rotate(15deg); opacity: 0; }
+        }
+
+        .main-stage {
+            position: relative;
+            width: min(980px, 92vw);
+            height: min(640px, 86vh);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .main-stage::before {
+            content: '';
             position: absolute;
+            inset: -40px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.08), transparent 60%);
+            filter: blur(2px);
+            z-index: 0;
+        }
+
+        .planet {
+            position: relative;
             border-radius: 50%;
-            background: rgba(0, 100, 255, 0.8);
-            width: 400px;
-            height: 400px;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            background: radial-gradient(circle at 30% 30%, rgba(164, 187, 255, 0.95), rgba(28, 44, 104, 0.9));
+            width: min(520px, 78vw);
+            height: min(520px, 78vw);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px;
+            box-shadow: 0 0 60px rgba(120, 165, 255, 0.4), inset 0 0 40px rgba(255, 255, 255, 0.18);
+            z-index: 1;
         }
 
         .sun {
             position: absolute;
             border-radius: 50%;
-            background: yellow;
-            width: 150px;
-            height: 150px;
-            box-shadow: 0 0 50px rgba(255, 255, 0, 0.8);
-            animation: sunGlow 3s infinite;
-            top: 10%;
-            left: 70%;
+            background: radial-gradient(circle at 30% 30%, #fff2c4, #ffc34d 65%, #ff9a3c 100%);
+            width: 160px;
+            height: 160px;
+            box-shadow: 0 0 50px rgba(255, 197, 92, 0.7), 0 0 130px rgba(255, 169, 39, 0.4);
+            animation: sunGlow 4s infinite;
+            top: 6%;
+            right: 10%;
             cursor: pointer;
             display: flex;
             justify-content: center;
             align-items: center;
+            z-index: 2;
         }
 
         @keyframes sunGlow {
-            0%, 100% { opacity: 0.5; }
-            50% { opacity: 1; }
+            0%, 100% { opacity: 0.65; transform: scale(0.98); }
+            50% { opacity: 1; transform: scale(1); }
         }
 
         #sun-message {
             position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            inset: 0;
             display: none;
-            background: rgba(0, 0, 0, 0.8);
-            padding: 20px;
-            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+            background: rgba(4, 6, 16, 0.75);
+            padding: 24px;
+            z-index: 5;
             text-align: center;
-            color: yellow;
-            z-index: 2;
-            max-width: 90%;
-            box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+        }
+
+        .sun-message-card {
+            background: rgba(18, 20, 40, 0.9);
+            border-radius: 20px;
+            padding: 26px 28px;
+            color: var(--accent-gold);
+            max-width: 420px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         #sun-message p {
             margin: 0;
             padding: 0;
             font-size: 16px;
+            line-height: 1.6;
         }
 
         #sun-message button {
-            margin-top: 10px;
-            padding: 10px 20px;
+            margin-top: 16px;
+            padding: 10px 24px;
             border: none;
-            background: #FF6347;
-            color: white;
-            border-radius: 5px;
+            background: linear-gradient(120deg, #ff8b6a, #ffb17f);
+            color: #1a0f0f;
+            border-radius: 999px;
             cursor: pointer;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        #sun-message button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(255, 145, 90, 0.45);
         }
 
         #envelope {
-            position: absolute;
-            width: 300px;
-            height: 250px;
-            background: #FFC0CB; /* Pink color */
+            width: min(440px, 90%);
+            background: linear-gradient(160deg, rgba(255, 255, 255, 0.96), rgba(255, 211, 227, 0.92));
             cursor: pointer;
             text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            padding: 28px;
+            border-radius: 26px;
+            box-shadow: 0 20px 45px rgba(24, 27, 64, 0.3);
             z-index: 1;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            color: #2f1a2f;
+        }
+
+        #envelope.open {
+            transform: translateY(-6px) scale(1.01);
+            box-shadow: 0 25px 55px rgba(24, 27, 64, 0.45);
         }
 
         #envelope .front {
-            color: black; /* Black text color */
+            font-weight: 600;
+            font-size: 1rem;
+            letter-spacing: 0.02em;
+            color: #1f1a2c;
         }
 
         #envelope .message {
             display: none;
-            margin-top: 10px;
-            font-size: 14px;
-            color: red; /* Red text color */
-            max-height: 100%;
+            margin-top: 18px;
+            font-size: 0.95rem;
+            color: #4a2f38;
+            max-height: 280px;
             overflow: auto;
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        #envelope .message p {
+            margin: 0 0 14px;
+        }
+
+        #envelope .message p:last-child {
+            margin-bottom: 0;
         }
 
         .highlighted {
-            font-weight: bold;
-            color: black; /* Black text color */
+            font-weight: 600;
+            color: #1a1a1a;
         }
 
         .fireworks {
@@ -189,84 +270,129 @@
         }
 
         .envelope-icon {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background: white;
-            border-radius: 50%;
+            width: 86px;
+            height: 86px;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 22px;
             display: flex;
             align-items: center;
             justify-content: center;
-            cursor: pointer;
-            top: 10%;
-            left: 10%;
+            padding: 12px;
+            box-shadow: 0 12px 25px rgba(255, 152, 60, 0.3);
+            text-align: center;
         }
 
         .envelope-icon p {
-            font-size: 10px;
+            font-size: 11px;
             margin: 0;
-            text-align: center;
-            color: black;
+            color: #2a1a1a;
+            font-weight: 600;
+            line-height: 1.2;
         }
 
         .click-me {
-            color: black; /* Black color for "click me" text */
+            color: #3b1c24;
             cursor: pointer;
             display: inline;
+            font-weight: 600;
+            text-decoration: underline;
         }
 
-        iframe {
-            position: absolute;
-            top: 10%;
-            left: 10%;
-            width: 80%;
-            height: 80%;
+        #college-iframe {
+            position: fixed;
+            inset: 8% 6%;
+            width: 88%;
+            height: 84%;
             border: none;
-            z-index: 2;
+            border-radius: 24px;
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+            display: none;
+            z-index: 4;
+            background: #0b0d1b;
+        }
+
+        @media (max-width: 768px) {
+            .main-stage {
+                height: 90vh;
+                padding: 20px;
+            }
+
+            .planet {
+                width: min(420px, 86vw);
+                height: min(420px, 86vw);
+                padding: 20px;
+            }
+
+            #envelope {
+                padding: 20px;
+            }
+
+            #envelope .message {
+                max-height: 240px;
+            }
+
+            .sun {
+                width: 120px;
+                height: 120px;
+                top: 5%;
+                right: 6%;
+            }
+
+            .envelope-icon {
+                width: 70px;
+                height: 70px;
+            }
         }
     </style>
 </head>
 <body>
     <div id="space-background"></div>
-    <div class="planet">
-        <div id="envelope" onclick="openEnvelope()">
-            <div class="front">
-                For Lucky not Lakki, from Delhi not Andhra (open)
-            </div>
-            <div class="message">
-                <p>Happy birthday, Lucky, again! I know you're stressed about your exams. But remember this quote by Camus: "In the midst of exams, I found there was, within me, an invincible focus."</p>
-                <p>Chhhi kya joke mara hai but hans lena aur exam achhe se dena jo already aadha ya usse jada ho chuka hoga. Baki take care of yourself and your health. I also wanted to recommend a book called Raag Darbaari by Shrilal Shukla. It's a satirical work set in rural Uttar Pradesh. You might enjoy it even more in the original Hindi, but the English translation is also great! (Just a suggestion, no pressure).</p>
-                <p>What's the update on Peaky Foooking Blinders? How far along are you? Aur us din Aryan wali baat aaadhi rah gayi thi you said wo BKl fir dusra topic shuru ho gaya. Aur ek baat batani thi college ki us din batane wala tha par dimag se hi nikal gaya tha. Ye desk se related hai(niche section me hai. Baki kisi bat se kuchh ahat hua ho to kshamprarthi.</p>
-                <p class="highlighted">College Sair Sapata, Rashi is still here. <span class="click-me" onclick="openCollegePage()">click me</span></p>
+    <main class="main-stage">
+        <div class="planet">
+            <div id="envelope" onclick="openEnvelope()">
+                <div class="front">
+                    For Lucky not Lakki, from Delhi not Andhra (open)
+                </div>
+                <div class="message">
+                    <p>Happy birthday, Lucky, again! I know you're stressed about your exams. But remember this quote by Camus: "In the midst of exams, I found there was, within me, an invincible focus."</p>
+                    <p>Chhhi kya joke mara hai but hans lena aur exam achhe se dena jo already aadha ya usse jada ho chuka hoga. Baki take care of yourself and your health. I also wanted to recommend a book called Raag Darbaari by Shrilal Shukla. It's a satirical work set in rural Uttar Pradesh. You might enjoy it even more in the original Hindi, but the English translation is also great! (Just a suggestion, no pressure).</p>
+                    <p>What's the update on Peaky Foooking Blinders? How far along are you? Aur us din Aryan wali baat aaadhi rah gayi thi you said wo BKl fir dusra topic shuru ho gaya. Aur ek baat batani thi college ki us din batane wala tha par dimag se hi nikal gaya tha. Ye desk se related hai(niche section me hai. Baki kisi bat se kuchh ahat hua ho to kshamprarthi.</p>
+                    <p class="highlighted">College Sair Sapata, Rashi is still here. <span class="click-me" onclick="openCollegePage()">click me</span></p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="sun" onclick="openSunMessage()">
-        <div class="envelope-icon">
-            <p>Aashirwad le lo. Touch here!</p>
+        <div class="sun" onclick="openSunMessage()">
+            <div class="envelope-icon">
+                <p>Aashirwad le lo. Touch here!</p>
+            </div>
         </div>
-    </div>
+    </main>
     <div id="sun-message">
-        <p>Happy birthday Sadhvi ji.<br>
-        Suryadev ka aapke charno me koti koti pranam.<br>
-        Ishwar aapko safal banaye.</p>
-        <button onclick="closeSunMessage()">Close</button>
+        <div class="sun-message-card">
+            <p>Happy birthday Sadhvi ji.<br>
+            Suryadev ka aapke charno me koti koti pranam.<br>
+            Ishwar aapko safal banaye.</p>
+            <button onclick="closeSunMessage()">Close</button>
+        </div>
     </div>
     <div class="fireworks"></div>
 
-    <iframe id="college-iframe" src="college.html" style="display:none;"></iframe>
+    <iframe id="college-iframe" src="college.html"></iframe>
 
     <audio id="happy-birthday-tune" src="happybirthday.mp3" preload="auto"></audio>
 
     <script>
         function openEnvelope() {
-            document.querySelector('#envelope .message').style.display = 'block';
+            const envelope = document.getElementById('envelope');
+            const message = envelope.querySelector('.message');
+            message.style.display = 'block';
+            envelope.classList.add('open');
             playFireworks();
             document.getElementById('happy-birthday-tune').play();
         }
 
         function openSunMessage() {
-            document.getElementById('sun-message').style.display = 'block';
+            document.getElementById('sun-message').style.display = 'flex';
         }
 
         function closeSunMessage() {
@@ -274,8 +400,9 @@
         }
 
         function openCollegePage() {
-            document.getElementById('college-iframe').style.display = 'block';
-            document.getElementById('college-iframe').contentWindow.location.reload(); // Reloads the iframe content
+            const iframe = document.getElementById('college-iframe');
+            iframe.style.display = 'block';
+            iframe.contentWindow.location.reload();
         }
 
         function createCelestialElements() {
@@ -287,8 +414,8 @@
                 star.classList.add('star');
                 star.style.top = Math.random() * 100 + '%';
                 star.style.left = Math.random() * 100 + '%';
-                star.style.animationDuration = Math.random() * 2 + 's'; // Random duration for twinkling
-                star.style.animationDelay = Math.random() * 50 + 's'; // Random delay for movement
+                star.style.animationDuration = Math.random() * 2 + 's';
+                star.style.animationDelay = Math.random() * 50 + 's';
                 spaceBackground.appendChild(star);
             }
 
@@ -298,8 +425,8 @@
                 planet.classList.add('animated-planet');
                 planet.style.top = Math.random() * 100 + '%';
                 planet.style.left = Math.random() * 100 + '%';
-                planet.style.background = 'white'; // All white planets
-                planet.style.animationDuration = (Math.random() * 10 + 10) + 's'; // Random duration for orbit
+                planet.style.background = 'white';
+                planet.style.animationDuration = (Math.random() * 10 + 10) + 's';
                 spaceBackground.appendChild(planet);
             }
 
