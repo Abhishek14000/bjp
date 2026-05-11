@@ -412,7 +412,11 @@
             try {
                 iframe.contentWindow.location.reload();
             } catch (error) {
-                iframe.src = iframe.src;
+                const currentSrc = iframe.getAttribute('src');
+                if (currentSrc) {
+                    const baseSrc = currentSrc.split('#')[0];
+                    iframe.src = `${baseSrc}#${Date.now()}`;
+                }
             }
         }
 

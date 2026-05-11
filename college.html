@@ -381,7 +381,8 @@
             let canClose = false;
             try {
                 const isEmbedded = parentWindow && parentWindow !== window;
-                canClose = isEmbedded && typeof parentWindow.closeCollegePage === 'function';
+                const hasCloseHandler = isEmbedded && typeof parentWindow.closeCollegePage === 'function';
+                canClose = hasCloseHandler;
             } catch (error) {
                 canClose = false;
             }
