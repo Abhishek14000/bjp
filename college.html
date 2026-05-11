@@ -199,7 +199,7 @@
 <body data-home-path="index.html">
     <div class="page">
         <div class="top-nav">
-            <button class="back-button home-button" onclick="exitToHome()" title="Back to home page" aria-label="Return to home page">Home</button>
+            <button class="back-button home-button" onclick="exitToHome()" aria-label="Return to home page">Home</button>
         </div>
         <section id="college-gate" class="portal-section is-active">
             <div class="gate-card">
@@ -381,8 +381,7 @@
             let canClose = false;
             try {
                 const isEmbedded = parentWindow && parentWindow !== window;
-                const hasCloseHandler = isEmbedded && typeof parentWindow.closeCollegePage === 'function';
-                canClose = hasCloseHandler;
+                canClose = isEmbedded && typeof parentWindow.closeCollegePage === 'function';
             } catch (error) {
                 canClose = false;
             }
