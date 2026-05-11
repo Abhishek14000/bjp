@@ -412,6 +412,7 @@
             try {
                 iframe.contentWindow.location.reload();
             } catch (error) {
+                console.warn('Unable to access iframe content window; reloading via src.', error);
                 const currentSrc = iframe.getAttribute('src');
                 if (currentSrc) {
                     const baseSrc = currentSrc.split('#')[0];
