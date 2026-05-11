@@ -199,7 +199,7 @@
 <body>
     <div class="page">
         <div class="top-nav">
-            <button class="back-button home-button" onclick="exitToHome()">Back to home</button>
+            <button class="back-button home-button" onclick="exitToHome()" aria-label="Back to home page" title="Back to home page">Back to home</button>
         </div>
         <section id="college-gate" class="portal-section is-active">
             <div class="gate-card">
@@ -365,6 +365,7 @@
 
     <script>
         const sections = Array.from(document.querySelectorAll('.portal-section'));
+        const HOME_PATH = 'index.html';
 
         function setActive(sectionId) {
             sections.forEach(section => section.classList.remove('is-active'));
@@ -382,10 +383,10 @@
                     parentWindow.closeCollegePage();
                     return;
                 }
-                parentWindow.location.href = 'index.html';
+                parentWindow.location.href = HOME_PATH;
                 return;
             }
-            window.location.href = 'index.html';
+            window.location.href = HOME_PATH;
         }
 
         function enterCollege() {
