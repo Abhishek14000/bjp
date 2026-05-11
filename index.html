@@ -70,12 +70,6 @@
             100% { transform: translateX(100vw); }
         }
 
-        @keyframes cometMove {
-            0% { transform: translate(0, 0) rotate(15deg); opacity: 0; }
-            20% { opacity: 1; }
-            100% { transform: translate(-120vw, 80vh) rotate(15deg); opacity: 0; }
-        }
-
         .main-stage {
             position: relative;
             width: min(980px, 92vw);
@@ -377,7 +371,7 @@
     </div>
     <div class="fireworks"></div>
 
-    <iframe id="college-iframe" src="college.html"></iframe>
+    <iframe id="college-iframe" src="college.html" loading="lazy"></iframe>
 
     <audio id="happy-birthday-tune" src="happybirthday.mp3" preload="auto"></audio>
 
