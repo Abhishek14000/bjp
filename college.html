@@ -41,6 +41,12 @@
             position: relative;
         }
 
+        .top-nav {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 24px;
+        }
+
         .portal-section {
             display: none;
             padding: 32px;
@@ -162,6 +168,12 @@
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
+        .home-button {
+            margin-top: 0;
+            border-color: rgba(245, 210, 138, 0.6);
+            color: var(--accent-gold);
+        }
+
         .back-button:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
@@ -186,6 +198,9 @@
 </head>
 <body>
     <div class="page">
+        <div class="top-nav">
+            <button class="back-button home-button" onclick="exitToHome()">Back to home</button>
+        </div>
         <section id="college-gate" class="portal-section is-active">
             <div class="gate-card">
                 <h1 class="section-title">Welcome to College, enter through the gate</h1>
@@ -358,6 +373,19 @@
                 target.classList.add('is-active');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
+        }
+
+        function exitToHome() {
+            const parentWindow = window.parent;
+            if (parentWindow && parentWindow !== window) {
+                if (typeof parentWindow.closeCollegePage === 'function') {
+                    parentWindow.closeCollegePage();
+                    return;
+                }
+                parentWindow.location.href = 'index.html';
+                return;
+            }
+            window.location.href = 'index.html';
         }
 
         function enterCollege() {

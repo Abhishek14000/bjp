@@ -409,6 +409,11 @@
             iframe.contentWindow.location.reload();
         }
 
+        function closeCollegePage() {
+            const iframe = document.getElementById('college-iframe');
+            iframe.style.display = 'none';
+        }
+
         function createCelestialElements() {
             const spaceBackground = document.getElementById('space-background');
 
