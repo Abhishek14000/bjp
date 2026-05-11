@@ -409,7 +409,11 @@
                 return;
             }
             iframe.style.display = 'block';
-            iframe.contentWindow.location.reload();
+            try {
+                iframe.contentWindow.location.reload();
+            } catch (error) {
+                iframe.src = iframe.src;
+            }
         }
 
         function closeCollegePage() {
