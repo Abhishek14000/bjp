@@ -405,12 +405,18 @@
 
         function openCollegePage() {
             const iframe = document.getElementById('college-iframe');
+            if (!iframe) {
+                return;
+            }
             iframe.style.display = 'block';
             iframe.contentWindow.location.reload();
         }
 
         function closeCollegePage() {
             const iframe = document.getElementById('college-iframe');
+            if (!iframe) {
+                return;
+            }
             iframe.style.display = 'none';
         }
 
