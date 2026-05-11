@@ -378,12 +378,8 @@
 
         function exitToHome() {
             const parentWindow = window.parent;
-            if (parentWindow && parentWindow !== window) {
-                if (typeof parentWindow.closeCollegePage === 'function') {
-                    parentWindow.closeCollegePage();
-                    return;
-                }
-                parentWindow.location.href = HOME_PATH;
+            if (parentWindow && parentWindow !== window && typeof parentWindow.closeCollegePage === 'function') {
+                parentWindow.closeCollegePage();
                 return;
             }
             window.location.href = HOME_PATH;
