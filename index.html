@@ -143,6 +143,10 @@
             text-align: center;
         }
 
+        #sun-message.is-visible {
+            display: flex;
+        }
+
         .sun-message-card {
             background: rgba(18, 20, 40, 0.9);
             border-radius: 20px;
@@ -377,7 +381,7 @@
     </div>
     <div class="fireworks"></div>
 
-    <iframe id="college-iframe" src="college.html" loading="lazy"></iframe>
+    <iframe id="college-iframe" src="college.html"></iframe>
 
     <audio id="happy-birthday-tune" src="happybirthday.mp3" preload="auto"></audio>
 
@@ -392,11 +396,11 @@
         }
 
         function openSunMessage() {
-            document.getElementById('sun-message').style.display = 'flex';
+            document.getElementById('sun-message').classList.add('is-visible');
         }
 
         function closeSunMessage() {
-            document.getElementById('sun-message').style.display = 'none';
+            document.getElementById('sun-message').classList.remove('is-visible');
         }
 
         function openCollegePage() {
