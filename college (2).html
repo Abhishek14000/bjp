@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to College</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #05070f;
+            --bg-panel: rgba(12, 16, 32, 0.86);
+            --accent-gold: #f5d28a;
+            --accent-lilac: #b9c6ff;
+            --accent-pink: #ffb6d4;
+            --text-primary: #f8f5ff;
+            --text-muted: #c8c9d6;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', 'Segoe UI', sans-serif;
+            color: var(--text-primary);
+            min-height: 100vh;
+            background: radial-gradient(circle at 20% 20%, rgba(62, 84, 175, 0.35), transparent 55%),
+                radial-gradient(circle at 80% 10%, rgba(255, 192, 203, 0.3), transparent 45%),
+                radial-gradient(circle at 50% 80%, rgba(24, 32, 72, 0.9), transparent 70%),
+                var(--bg-deep);
+        }
+
+        .page {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+            position: relative;
+        }
+
+        .portal-section {
+            display: none;
+            padding: 32px;
+            border-radius: 28px;
+            background: var(--bg-panel);
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(12px);
+        }
+
+        .portal-section.is-active {
+            display: block;
+            animation: fadeUp 0.5s ease;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .section-title {
+            margin: 0 0 16px;
+            font-size: clamp(1.6rem, 2.6vw, 2.4rem);
+            font-weight: 600;
+            color: var(--accent-gold);
+        }
+
+        .section-subtitle {
+            margin: 0 0 24px;
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .gate-card {
+            display: grid;
+            gap: 24px;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+        }
+
+        #college-gate img {
+            width: min(420px, 80vw);
+            border-radius: 22px;
+            cursor: pointer;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #college-gate img:hover {
+            transform: translateY(-6px) scale(1.01);
+            box-shadow: 0 30px 70px rgba(0, 0, 0, 0.55);
+        }
+
+        .section-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .section-card {
+            padding: 18px 22px;
+            border-radius: 18px;
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.02));
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: var(--text-primary);
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 36px rgba(6, 12, 28, 0.45);
+        }
+
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .media-card {
+            padding: 12px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+        }
+
+        .media-card img,
+        .media-card video {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            display: block;
+            object-fit: cover;
+            background: #000;
+        }
+
+        .media-card p {
+            margin: 16px 0 0;
+            color: var(--text-muted);
+        }
+
+        .back-button {
+            margin-top: 28px;
+            padding: 10px 20px;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+        }
+
+        .text-block {
+            margin-top: 18px;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .page {
+                padding: 28px 16px 48px;
+            }
+
+            .portal-section {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <section id="college-gate" class="portal-section is-active">
+            <div class="gate-card">
+                <h1 class="section-title">Welcome to College, enter through the gate</h1>
+                <img src="college-gate.jpg" alt="Hansraj College Gate" onclick="enterCollege()">
+            </div>
+        </section>
+
+        <section id="college-sections" class="portal-section">
+            <h2 class="section-title">College Sections</h2>
+            <div class="section-grid">
+                <div class="section-card" onclick="showSection('CBlock')">C Block</div>
+                <div class="section-card" onclick="showSection('ABlock')">A Block</div>
+            </div>
+            <button class="back-button" onclick="goBack('college-gate')">Back</button>
+        </section>
+
+        <section id="CBlock" class="portal-section">
+            <h3 class="section-title">C Block</h3>
+            <div class="section-grid">
+                <div class="section-card" onclick="showSubSection('WallOfFame')">Wall of Fame</div>
+                <div class="section-card" onclick="showSubSection('Class105')">Class No 105</div>
+                <div class="section-card" onclick="showSubSection('LP')">LP</div>
+                <div class="section-card" onclick="showSubSection('PeepalTree')">Peepal Tree</div>
+                <div class="section-card" onclick="showSubSection('Library')">Library</div>
+                <div class="section-card" onclick="showSubSection('Canteen')">Canteen</div>
+                <div class="section-card" onclick="showSubSection('BlastFromPast')">Blast from the Past</div>
+            </div>
+            <button class="back-button" onclick="goBack('college-sections')">Back</button>
+        </section>
+
+        <section id="ABlock" class="portal-section">
+            <h3 class="section-title">A Block</h3>
+            <div class="section-grid">
+                <div class="section-card" onclick="showSubSection('Wall')">The Wall</div>
+                <div class="section-card" onclick="showSubSection('Misc')">Misc</div>
+            </div>
+            <button class="back-button" onclick="goBack('college-sections')">Back</button>
+        </section>
+
+        <section id="WallOfFame" class="portal-section">
+            <h4 class="section-title">Wall of Fame</h4>
+            <div class="media-grid">
+                <div class="media-card">
+                    <video controls>
+                        <source src="modi.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media-card">
+                    <img src="bjp.jpg" alt="Wall of Fame poster">
+                </div>
+            </div>
+            <button class="back-button" onclick="goBack('CBlock')">Back</button>
+        </section>
+
+        <section id="Class105" class="portal-section">
+            <h4 class="section-title">Class No 105</h4>
+            <div class="media-grid">
+                <div class="media-card">
+                    <img src="cls.jpg" alt="Classroom 105 memory">
+                </div>
+            </div>
+            <button class="back-button" onclick="goBack('CBlock')">Back</button>
+        </section>
+
+        <section id="LP" class="portal-section">
+            <h4 class="section-title">LP</h4>
+            <div class="media-grid">
+                <div class="media-card">
+                    <img src="lp.jpg" alt="LP area snapshot">
+                </div>
+            </div>
+            <button class="back-button" onclick="goBack('CBlock')">Back</button>
+        </section>
+
+        <section id="PeepalTree" class="portal-section">
+            <h4 class="section-title">Peepal Tree</h4>
+            <div class="media-grid">
+                <div class="media-card">
+                    <img src="pplsol.jpg" alt="Peepal tree solo shot">
+                </div>
+                <div class="media-card">
+                    <img src="ppl.jpg" alt="Peepal tree group shot">
+                </div>
+                <div class="media-card">
+                    <img src="threetee.jpg" alt="Three tree scene">
+                </div>
+            </div>
+            <button class="back-button" onclick="goBack('CBlock')">Back</button>
+        </section>
+
+        <section id="Library" class="portal-section">
+            <h4 class="section-title">Library</h4>
+            <div class="media-grid">
+                <div class="media-card">
+                    <img src="lib.jpg" alt="Library memory">
+                </div>
+            </div>
+            <button class="back-button" onclick="goBack('CBlock')">Back</button>
+        </section>
+
+        <section id="Canteen" class="portal-section">
+            <h4 class="section-title">Canteen</h4>
+            <div class="media-grid">
+                <div class="media-card">
+                    <video controls>
+                        <source src="silentfeud.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Yaar kabhi ladayi nahi dekh paya aap dono ki (crying emoji), na solve hi ho paya kabhi aap dono ka.</p>
+                </div>
+            </div>
+            <button class="back-button" onclick="goBack('CBlock')">Back</button>
+        </section>
+
+        <section id="BlastFromPast" class="portal-section">
+            <h4 class="section-title">Blast from the Past</h4>
+            <div class="media-grid">
+                <div class="media-card">
+                    <img src="blast.jpg" alt="Blast from the past desk note">
+                    <div class="text-block">
+                        <p>Isi desk ki baat kar raha tha mai ye maine nahi likha tha, ye Rishabh ne likha tha mujhe pichhale saal pata chala tha masters me.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="back-button" onclick="goBack('CBlock')">Back</button>
+        </section>
+
+        <section id="Wall" class="portal-section">
+            <h4 class="section-title">The Wall</h4>
+            <div class="media-grid">
+                <div class="media-card">
+                    <img src="hmm.jpg" alt="The Wall memory">
+                </div>
+                <div class="media-card">
+                    <img src="triad.jpg" alt="Triad wall art">
+                </div>
+                <div class="media-card">
+                    <img src="sdvi.jpg" alt="Wall snapshot">
+                </div>
+            </div>
+            <button class="back-button" onclick="goBack('ABlock')">Back</button>
+        </section>
+
+        <section id="Misc" class="portal-section">
+            <h4 class="section-title">Misc</h4>
+            <div class="media-grid">
+                <div class="media-card">
+                    <img src="Ablk.jpg" alt="A Block snapshot">
+                </div>
+                <div class="media-card">
+                    <img src="ludi.jpg" alt="Ludi moment">
+                </div>
+                <div class="media-card">
+                    <img src="aftpty.jpg" alt="After party memory">
+                </div>
+            </div>
+            <p class="text-block">Okay, ab ye birthday greeting card khatam. Wishing you a very happy birthday! Sending you lots of well wishes and love. GST.</p>
+            <button class="back-button" onclick="goBack('ABlock')">Back</button>
+        </section>
+    </div>
+
+    <script>
+        const sections = Array.from(document.querySelectorAll('.portal-section'));
+
+        function setActive(sectionId) {
+            sections.forEach(section => section.classList.remove('is-active'));
+            const target = document.getElementById(sectionId);
+            if (target) {
+                target.classList.add('is-active');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        function enterCollege() {
+            setActive('college-sections');
+        }
+
+        function showSection(sectionId) {
+            setActive(sectionId);
+        }
+
+        function showSubSection(subSectionId) {
+            setActive(subSectionId);
+        }
+
+        function goBack(sectionId) {
+            setActive(sectionId);
+        }
+
+    </script>
+</body>
+</html>
