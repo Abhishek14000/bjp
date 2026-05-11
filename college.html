@@ -186,7 +186,7 @@
 </head>
 <body>
     <div class="page">
-        <section id="college-gate" class="portal-section is-active">
+        <section id="college-gate" class="portal-section">
             <div class="gate-card">
                 <h1 class="section-title">Welcome to College, enter through the gate</h1>
                 <img src="college-gate.jpg" alt="Hansraj College Gate" onclick="enterCollege()">
@@ -375,6 +375,8 @@
         function goBack(sectionId) {
             setActive(sectionId);
         }
+
+        setActive('college-gate');
     </script>
 </body>
 </html>
