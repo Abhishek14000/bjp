@@ -196,10 +196,10 @@
         }
     </style>
 </head>
-<body>
+<body data-home-path="index.html">
     <div class="page">
         <div class="top-nav">
-            <button class="back-button home-button" onclick="exitToHome()" title="Back to home page">Home</button>
+            <button class="back-button home-button" onclick="exitToHome()" title="Back to home page" aria-label="Return to home page">Home</button>
         </div>
         <section id="college-gate" class="portal-section is-active">
             <div class="gate-card">
@@ -365,7 +365,7 @@
 
     <script>
         const sections = Array.from(document.querySelectorAll('.portal-section'));
-        const HOME_PATH = 'index.html';
+        const HOME_PATH = document.body.dataset.homePath || 'index.html';
 
         function setActive(sectionId) {
             sections.forEach(section => section.classList.remove('is-active'));
@@ -378,15 +378,18 @@
 
         function exitToHome() {
             const parentWindow = window.parent;
+            let canClose = false;
             try {
-                if (parentWindow && parentWindow !== window && typeof parentWindow.closeCollegePage === 'function') {
-                    parentWindow.closeCollegePage();
-                    return;
-                }
+                canClose = parentWindow && parentWindow !== window && typeof parentWindow.closeCollegePage === 'function';
             } catch (error) {
-                window.location.href = HOME_PATH;
+                canClose = false;
+            }
+
+            if (canClose) {
+                parentWindow.closeCollegePage();
                 return;
             }
+
             window.location.href = HOME_PATH;
         }
 
