@@ -41,12 +41,6 @@
             position: relative;
         }
 
-        .top-nav {
-            display: flex;
-            justify-content: flex-start;
-            margin-bottom: 24px;
-        }
-
         .portal-section {
             display: none;
             padding: 32px;
@@ -153,6 +147,19 @@
             color: var(--text-muted);
         }
 
+        .top-nav {
+            display: flex;
+            justify-content: flex-start;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .music-button {
+            margin-top: 0;
+            border-color: rgba(185, 198, 255, 0.6);
+            color: var(--accent-lilac);
+        }
+
         .back-button {
             margin-top: 28px;
             padding: 10px 20px;
@@ -200,6 +207,7 @@
     <div class="page">
         <div class="top-nav">
             <button id="home-button" class="back-button home-button" aria-label="Return to home page">Home</button>
+            <button id="college-music-toggle" class="back-button music-button" aria-label="Pause music">⏸ Pause Music</button>
         </div>
         <section id="college-gate" class="portal-section is-active">
             <div class="gate-card">
@@ -397,6 +405,30 @@
         const homeButton = document.getElementById('home-button');
         if (homeButton) {
             homeButton.addEventListener('click', exitToHome);
+        }
+
+        const collegeMusicToggle = document.getElementById('college-music-toggle');
+        if (collegeMusicToggle) {
+            collegeMusicToggle.addEventListener('click', function () {
+                const parentWindow = window.parent;
+                try {
+                    if (parentWindow && parentWindow !== window && typeof parentWindow.toggleMusic === 'function') {
+                        parentWindow.toggleMusic();
+                        const parentAudio = parentWindow.document.getElementById('happy-birthday-tune');
+                        if (parentAudio) {
+                            if (parentAudio.paused) {
+                                collegeMusicToggle.textContent = '▶ Play Music';
+                                collegeMusicToggle.setAttribute('aria-label', 'Play music');
+                            } else {
+                                collegeMusicToggle.textContent = '⏸ Pause Music';
+                                collegeMusicToggle.setAttribute('aria-label', 'Pause music');
+                            }
+                        }
+                    }
+                } catch (error) {
+                    /* standalone mode — no parent audio to control */
+                }
+            });
         }
 
         function enterCollege() {

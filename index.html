@@ -315,6 +315,30 @@
             background: #0b0d1b;
         }
 
+        #music-toggle {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 10;
+            display: none;
+            padding: 10px 20px;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            background: rgba(18, 20, 40, 0.85);
+            color: var(--accent-gold);
+            font-family: 'Poppins', 'Segoe UI', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            backdrop-filter: blur(8px);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        #music-toggle:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+
         @media (max-width: 768px) {
             .main-stage {
                 height: 90vh;
@@ -385,15 +409,35 @@
 
     <audio id="happy-birthday-tune" src="happybirthday.mp3" preload="auto"></audio>
 
+    <button id="music-toggle" aria-label="Pause music">⏸ Pause Music</button>
+
     <script>
+        const audio = document.getElementById('happy-birthday-tune');
+        const musicToggleBtn = document.getElementById('music-toggle');
+
         function openEnvelope() {
             const envelope = document.getElementById('envelope');
             const message = envelope.querySelector('.message');
             message.style.display = 'block';
             envelope.classList.add('open');
             playFireworks();
-            document.getElementById('happy-birthday-tune').play();
+            audio.play();
+            musicToggleBtn.style.display = 'block';
         }
+
+        function toggleMusic() {
+            if (audio.paused) {
+                audio.play();
+                musicToggleBtn.textContent = '⏸ Pause Music';
+                musicToggleBtn.setAttribute('aria-label', 'Pause music');
+            } else {
+                audio.pause();
+                musicToggleBtn.textContent = '▶ Play Music';
+                musicToggleBtn.setAttribute('aria-label', 'Play music');
+            }
+        }
+
+        musicToggleBtn.addEventListener('click', toggleMusic);
 
         function openSunMessage() {
             document.getElementById('sun-message').classList.add('is-visible');
