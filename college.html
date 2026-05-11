@@ -380,8 +380,8 @@
             const parentWindow = window.parent;
             let canClose = false;
             try {
-                const hasParent = parentWindow && parentWindow !== window;
-                canClose = hasParent && typeof parentWindow.closeCollegePage === 'function';
+                canClose = parentWindow && parentWindow !== window
+                    && typeof parentWindow.closeCollegePage === 'function';
             } catch (error) {
                 canClose = false;
             }
