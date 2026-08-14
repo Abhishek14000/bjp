@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "Which text is traditionally regarded as the earliest extant Tamil grammatical work linked to the Sangam age?",
+    "options": ["Tolkappiyam", "Silappadikaram", "Manimekalai", "Nalayira Divya Prabandham"],
+    "answer": 0,
+    "explanation": "Tolkappiyam is the earliest surviving Tamil grammatical treatise and is central to Sangam studies.",
+    "topic": "Sangam Age",
+    "subtopic": "Literary sources",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "The term 'Ettuthokai' in Sangam literature refers to:",
+    "options": ["Eight anthologies", "Ten idylls", "Five epics", "Twelve didactic works"],
+    "answer": 0,
+    "explanation": "Ettuthokai literally means 'Eight Collections' and is a major corpus of Sangam poems.",
+    "topic": "Sangam Age",
+    "subtopic": "Sangam corpus",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "In classical Tamil poetics, 'Akam' poetry primarily deals with:",
+    "options": ["Interior life and love", "Royal genealogies", "Temple rituals", "Trade tariffs"],
+    "answer": 0,
+    "explanation": "Akam genre addresses themes of love, emotions, and personal relationships.",
+    "topic": "Sangam Age",
+    "subtopic": "Akam and Puram",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "question": "'Puram' poems in Sangam literature are mainly associated with:",
+    "options": ["War, valor, and public life", "Domestic rituals", "Grammar rules", "Medical practice"],
+    "answer": 0,
+    "explanation": "Puram poetry focuses on public themes such as warfare, kingship, and fame.",
+    "topic": "Sangam Age",
+    "subtopic": "Akam and Puram",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "question": "The concept of 'Tinai' in Sangam texts links emotions and situations to:",
+    "options": ["Ecological landscapes", "Dynastic capitals", "Types of taxation", "Coin standards"],
+    "answer": 0,
+    "explanation": "Tinai classifies poetic situations through specific landscapes and associated social moods.",
+    "topic": "Sangam Age",
+    "subtopic": "Tinai system",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "question": "Which port on the west coast is widely identified with the Chera-Roman trade nexus in early historic South India?",
+    "options": ["Muziris", "Korkai", "Puhar", "Arikamedu"],
+    "answer": 0,
+    "explanation": "Muziris is repeatedly linked to Indian Ocean commerce and Mediterranean trade contacts.",
+    "topic": "Sangam Age",
+    "subtopic": "Maritime trade",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 7,
+    "question": "Korkai is best known in Sangam context for:",
+    "options": ["Pearl fisheries under the Pandyas", "Horse imports by Cholas", "Buddhist monastic universities", "Iron smelting guilds of Cheras"],
+    "answer": 0,
+    "explanation": "Korkai in the Pandya region is strongly associated with pearl-fishery activity.",
+    "topic": "Sangam Age",
+    "subtopic": "Ports and economy",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 8,
+    "question": "The term 'Yavana' in early Tamil sources most commonly denotes:",
+    "options": ["Greco-Roman foreigners", "Arab merchants", "Sri Lankan monks", "Central Asian nomads"],
+    "answer": 0,
+    "explanation": "In Sangam and related early historic usage, Yavana generally refers to western, often Greco-Roman, peoples.",
+    "topic": "Sangam Age",
+    "subtopic": "Foreign contacts",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 9,
+    "question": "Which external text is an important source for Indian Ocean trade, including the Tamil coast, in the early centuries CE?",
+    "options": ["Periplus of the Erythraean Sea", "Arthashastra", "Rajatarangini", "Milinda Panha"],
+    "answer": 0,
+    "explanation": "The Periplus provides first-century CE commercial descriptions of ports and trade routes.",
+    "topic": "Sangam Age",
+    "subtopic": "Foreign accounts",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 10,
+    "question": "The Chola port city often identified with Kaveripattinam in Sangam traditions is:",
+    "options": ["Puhar", "Vanji", "Uraiyur", "Madurai"],
+    "answer": 0,
+    "explanation": "Puhar (Kaveripattinam) is associated with Chola maritime activity in early Tamil sources.",
+    "topic": "Sangam Age",
+    "subtopic": "Urban centres",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 11,
+    "question": "Nadukal (hero stones) in early South India primarily commemorated:",
+    "options": ["Warriors who died in battle or cattle raids", "Royal coronations", "Land grants to Brahmanas", "Temple consecration ceremonies"],
+    "answer": 0,
+    "explanation": "Hero stones memorialized individuals, often warriors, who died in conflict contexts.",
+    "topic": "Sangam Age",
+    "subtopic": "Belief systems and memorial culture",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 12,
+    "question": "Which category of evidence directly supports long-distance Roman trade with Tamil regions?",
+    "options": ["Hoards of Roman coins in South India", "Vedic shakha lists", "Gupta pillar inscriptions", "Mughal farmans"],
+    "answer": 0,
+    "explanation": "Roman coin finds in peninsular India are key archaeological indicators of exchange networks.",
+    "topic": "Sangam Age",
+    "subtopic": "Archaeological sources",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 13,
+    "question": "In Sangam polity, the term 'Velir' is generally used for:",
+    "options": ["Intermediate chieftains and local elites", "Roman tax officials", "Monastic teachers", "Temple accountants of Chola period"],
+    "answer": 0,
+    "explanation": "Velir chiefs appear as significant local rulers linked to larger dynastic politics.",
+    "topic": "Sangam Age",
+    "subtopic": "Polity and chieftaincies",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 14,
+    "question": "Which Sangam collection is especially associated with bardic praise and political themes of the three crowned kings?",
+    "options": ["Purananuru", "Kuruntokai", "Ainkurunuru", "Kalittokai"],
+    "answer": 0,
+    "explanation": "Purananuru is rich in poems on kingship, warfare, generosity, and public ethics.",
+    "topic": "Sangam Age",
+    "subtopic": "Sangam anthologies",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 15,
+    "question": "Arikamedu near present-day Puducherry is archaeologically significant mainly for:",
+    "options": ["Evidence of Indo-Roman trade and craft activity", "Ashokan pillar edicts", "Gupta cave paintings", "Satavahana royal palace remains"],
+    "answer": 0,
+    "explanation": "Excavations revealed imported ceramics and local industry, indicating participation in overseas trade.",
+    "topic": "Sangam Age",
+    "subtopic": "Archaeology and trade",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 16,
+    "question": "The phrase 'Muvendar' in Tamil historical-literary context refers to:",
+    "options": ["The three crowned dynasties: Chera, Chola, and Pandya", "Three Sangam academies", "Three major Tamil epics", "Three monastic orders"],
+    "answer": 0,
+    "explanation": "Muvendar denotes the triad of major Tamil ruling lineages in early historic tradition.",
+    "topic": "Sangam Age",
+    "subtopic": "Dynastic framework",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 17,
+    "question": "Which ecological zone in Tinai classification is associated with pastoral life?",
+    "options": ["Mullai", "Marutam", "Neytal", "Palai"],
+    "answer": 0,
+    "explanation": "Mullai is linked with forests/pastoral tracts and cattle-herding lifeways.",
+    "topic": "Sangam Age",
+    "subtopic": "Tinai and economy",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 18,
+    "question": "Which ecological zone in Tinai classification is associated with agricultural and riverine plains?",
+    "options": ["Marutam", "Kurinji", "Palai", "Neytal"],
+    "answer": 0,
+    "explanation": "Marutam corresponds to fertile wetland/plains agriculture.",
+    "topic": "Sangam Age",
+    "subtopic": "Tinai and agriculture",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 19,
+    "question": "A major historiographical caution in using Sangam poems as political history is that they are:",
+    "options": ["Normative and patronage-linked compositions requiring source correlation", "Direct court chronicles with exact regnal years", "Later Persian translations of Tamil records", "Official tax manuals from temple archives"],
+    "answer": 0,
+    "explanation": "Sangam poems are literary works shaped by genre and patronage; historians cross-check them with archaeology and epigraphy.",
+    "topic": "Sangam Age",
+    "subtopic": "Historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 20,
+    "question": "Which pairing of Tinai and dominant economic activity is correctly matched?",
+    "options": ["Neytal — fishing and salt production", "Kurinji — wet-rice cultivation", "Marutam — pearl diving", "Palai — estuarine trade guilds"],
+    "answer": 0,
+    "explanation": "Neytal (littoral/coastal zone) is associated with fishing, salt-making, and seaborne interaction.",
+    "topic": "Sangam Age",
+    "subtopic": "Tinai and occupations",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 21,
+    "question": "The transition from Megalithic to Early Historic in Tamil regions is best inferred through:",
+    "options": ["Combined evidence from material culture shifts, settlement growth, and literacy expansion", "A single royal inscription fixing a transition year", "Exclusive dependence on epic narratives", "A uniform decline in all craft production"],
+    "answer": 0,
+    "explanation": "Archaeology shows gradual change through ceramics, iron use, exchange networks, and emergent urban nodes.",
+    "topic": "Sangam Age",
+    "subtopic": "Archaeological context",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 22,
+    "question": "Why is cross-referencing Tamil-Brahmi inscriptions with Sangam literature methodologically important?",
+    "options": ["It helps test literary references against contemporaneous material records", "It proves every poem is chronologically fixed", "It replaces archaeological dating entirely", "It eliminates all uncertainty about authorship"],
+    "answer": 0,
+    "explanation": "Epigraphic evidence provides independent chronological and social data to evaluate literary claims.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and method",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 23,
+    "question": "Which statement best captures the political structure reflected in Sangam sources?",
+    "options": ["A layered order of major dynasties, chieftains, and clan-based local powers", "A centralized imperial bureaucracy like later Cholas", "A stateless society with no kingship at all", "A theocratic state ruled by monastic councils"],
+    "answer": 0,
+    "explanation": "Texts indicate coexistence of crowned kings with numerous local chieftains and kin-based authorities.",
+    "topic": "Sangam Age",
+    "subtopic": "Polity and administration",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 24,
+    "question": "In Sangam exchange systems, which factor most plausibly encouraged maritime specialization at select ports?",
+    "options": ["Integration of inland production zones with littoral emporia and monsoon sea routes", "Absence of inland markets", "Uniform coin minting by a single Tamil emperor", "Total decline of craft guilds in coastal areas"],
+    "answer": 0,
+    "explanation": "Port growth depended on hinterland-coast linkages and seasonal Indian Ocean navigation.",
+    "topic": "Sangam Age",
+    "subtopic": "Economic networks",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 25,
+    "question": "A balanced reconstruction of Sangam-age religion is most consistent with which view?",
+    "options": ["Plural practices including local cults, hero memorials, and emerging pan-Indian traditions", "Exclusive dominance of a single organized church-like institution", "Complete absence of ritual practices", "Only Vedic sacrifice with no regional variation"],
+    "answer": 0,
+    "explanation": "Evidence points to diverse ritual worlds rather than a single uniform religious system.",
+    "topic": "Sangam Age",
+    "subtopic": "Religion and belief systems",
+    "difficulty": "Difficult"
+  }
+]
