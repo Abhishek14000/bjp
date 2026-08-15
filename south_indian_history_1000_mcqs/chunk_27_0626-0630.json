@@ -1,0 +1,77 @@
+[
+  {
+    "id": 626,
+    "question": "Within the study of Pandya, which description best matches Pandya-Chera interactions?",
+    "options": [
+      "part of a broader marine economy",
+      "a major political and cultural centre of Pandya history",
+      "shaped western and southern trade relations",
+      "a major economic feature in Pandya coastal zones"
+    ],
+    "answer": 2,
+    "explanation": "Pandya-Chera interactions is correctly associated with shaped western and southern trade relations.",
+    "topic": "Pandya",
+    "subtopic": "Inter-dynastic politics",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 627,
+    "question": "Within the study of Pandya, which description best matches Foreign travel accounts on Tamil ports?",
+    "options": [
+      "supplement local sources for commercial history",
+      "supported Pandya fiscal systems",
+      "linked economy, ritual, and authority",
+      "important literary evidence for early Pandya traditions"
+    ],
+    "answer": 0,
+    "explanation": "Foreign travel accounts on Tamil ports is correctly associated with supplement local sources for commercial history.",
+    "topic": "Pandya",
+    "subtopic": "Foreign accounts",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 628,
+    "question": "Within the study of Pandya, which description best matches Kayal as a later maritime centre?",
+    "options": [
+      "linked economy, ritual, and authority",
+      "supported Pandya fiscal systems",
+      "appear in wider maritime-cultural interactions",
+      "often cited in medieval trade discussions"
+    ],
+    "answer": 3,
+    "explanation": "Kayal as a later maritime centre is correctly associated with often cited in medieval trade discussions.",
+    "topic": "Pandya",
+    "subtopic": "Ports and trade",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 629,
+    "question": "Within the study of Pandya, which description best matches Local elites and chiefs?",
+    "options": [
+      "a symbol linked to Pandya political identity",
+      "supplement local sources for commercial history",
+      "critical for sustaining maritime commerce",
+      "mediated royal authority in many zones"
+    ],
+    "answer": 3,
+    "explanation": "Local elites and chiefs is correctly associated with mediated royal authority in many zones.",
+    "topic": "Pandya",
+    "subtopic": "Polity and administration",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 630,
+    "question": "Within the study of Pandya, which description best matches Land grants to temples?",
+    "options": [
+      "also benefited from grants and patronage",
+      "important for social and political integration",
+      "received significant patronage",
+      "appear in wider maritime-cultural interactions"
+    ],
+    "answer": 1,
+    "explanation": "Land grants to temples is correctly associated with important for social and political integration.",
+    "topic": "Pandya",
+    "subtopic": "Land grants",
+    "difficulty": "Moderate"
+  }
+]

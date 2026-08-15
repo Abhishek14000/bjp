@@ -1,0 +1,377 @@
+[
+  {
+    "id": 76,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: the arid landscape in Tinai classification?",
+    "options": [
+      "Purananuru",
+      "Ettuthokai",
+      "Palai",
+      "Women in Sangam literature"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Palai, which is associated with the arid landscape in Tinai classification.",
+    "topic": "Sangam Age",
+    "subtopic": "Tinai system",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 77,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: the Chera, Chola, and Pandya crowned lineages?",
+    "options": [
+      "Yavana",
+      "Muvendar",
+      "Cattle raids in Sangam references",
+      "Puram poetry"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Muvendar, which is associated with the Chera, Chola, and Pandya crowned lineages.",
+    "topic": "Sangam Age",
+    "subtopic": "Dynastic framework",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 78,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a major west-coast emporium tied to overseas trade?",
+    "options": [
+      "Arikamedu",
+      "Muziris",
+      "Black-and-red ware horizons",
+      "Bards (Panar and related groups)"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Muziris, which is associated with a major west-coast emporium tied to overseas trade.",
+    "topic": "Sangam Age",
+    "subtopic": "Maritime trade",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 79,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a port strongly linked with pearl fisheries in Pandya territory?",
+    "options": [
+      "Sangam poems",
+      "Megalithic burials",
+      "Korkai",
+      "Cattle raids in Sangam references"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Korkai, which is associated with a port strongly linked with pearl fisheries in Pandya territory.",
+    "topic": "Sangam Age",
+    "subtopic": "Ports and economy",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 80,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an early Chola-associated port city on the Coromandel coast?",
+    "options": [
+      "Maritime monsoon routes",
+      "Puhar (Kaveripattinam)",
+      "Women in Sangam literature",
+      "Akananuru"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Puhar (Kaveripattinam), which is associated with an early Chola-associated port city on the Coromandel coast.",
+    "topic": "Sangam Age",
+    "subtopic": "Urban centres",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 81,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an early historic Chola centre in Tamil tradition?",
+    "options": [
+      "Puhar (Kaveripattinam)",
+      "Uraiyur",
+      "Inland-coastal exchange",
+      "Black-and-red ware horizons"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Uraiyur, which is associated with an early historic Chola centre in Tamil tradition.",
+    "topic": "Sangam Age",
+    "subtopic": "Urban centres",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 82,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a core Pandya political and cultural centre in Sangam references?",
+    "options": [
+      "Madurai",
+      "Mullai",
+      "Pastoral mobility",
+      "Purananuru"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Madurai, which is associated with a core Pandya political and cultural centre in Sangam references.",
+    "topic": "Sangam Age",
+    "subtopic": "Urban centres",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 83,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a centre associated with early Chera tradition?",
+    "options": [
+      "Ettuthokai",
+      "Tolkappiyam",
+      "Vanji",
+      "Nadukal (hero stones)"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Vanji, which is associated with a centre associated with early Chera tradition.",
+    "topic": "Sangam Age",
+    "subtopic": "Urban centres",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 84,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a term commonly used for Greco-Roman foreigners in early Tamil sources?",
+    "options": [
+      "Yavana",
+      "War drums and martial praise",
+      "Maritime monsoon routes",
+      "Clan and chieftain politics"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Yavana, which is associated with a term commonly used for Greco-Roman foreigners in early Tamil sources.",
+    "topic": "Sangam Age",
+    "subtopic": "Foreign contacts",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 85,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an external account for first-century Indian Ocean trade including the Tamil coast?",
+    "options": [
+      "Periplus of the Erythraean Sea",
+      "Women in Sangam literature",
+      "Kurinji",
+      "Roman coin finds in South India"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Periplus of the Erythraean Sea, which is associated with an external account for first-century Indian Ocean trade including the Tamil coast.",
+    "topic": "Sangam Age",
+    "subtopic": "Foreign accounts",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 86,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an anthology rich in public, political, and martial themes?",
+    "options": [
+      "Bards (Panar and related groups)",
+      "Tolkappiyam",
+      "Purananuru",
+      "Megalithic burials"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Purananuru, which is associated with an anthology rich in public, political, and martial themes.",
+    "topic": "Sangam Age",
+    "subtopic": "Sangam anthologies",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 87,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an anthology centered on Akam (love/interior) themes?",
+    "options": [
+      "Tinai",
+      "Akananuru",
+      "Nadukal (hero stones)",
+      "Purananuru"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Akananuru, which is associated with an anthology centered on Akam (love/interior) themes.",
+    "topic": "Sangam Age",
+    "subtopic": "Sangam anthologies",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 88,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: memorial stones commemorating death in valorous conflict?",
+    "options": [
+      "Tamil-Brahmi inscriptions",
+      "Puram poetry",
+      "Mullai",
+      "Nadukal (hero stones)"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Nadukal (hero stones), which is associated with memorial stones commemorating death in valorous conflict.",
+    "topic": "Sangam Age",
+    "subtopic": "Belief systems and memorial culture",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 89,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: key epigraphic evidence for early literacy and social history in Tamil regions?",
+    "options": [
+      "Tamil-Brahmi inscriptions",
+      "Women in Sangam literature",
+      "Yavana",
+      "Puhar (Kaveripattinam)"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Tamil-Brahmi inscriptions, which is associated with key epigraphic evidence for early literacy and social history in Tamil regions.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and method",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 90,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: archaeological evidence of long-distance exchange with the Mediterranean world?",
+    "options": [
+      "Roman coin finds in South India",
+      "Maritime monsoon routes",
+      "Ettuthokai",
+      "Yavana"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Roman coin finds in South India, which is associated with archaeological evidence of long-distance exchange with the Mediterranean world.",
+    "topic": "Sangam Age",
+    "subtopic": "Archaeological sources",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 91,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an archaeological site showing Indo-Roman trade and craft links?",
+    "options": [
+      "Cattle raids in Sangam references",
+      "Arikamedu",
+      "Palai",
+      "Wet-rice cultivation"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Arikamedu, which is associated with an archaeological site showing Indo-Roman trade and craft links.",
+    "topic": "Sangam Age",
+    "subtopic": "Archaeology and trade",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 92,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: material culture linked to late megalithic and early historic transitions?",
+    "options": [
+      "Black-and-red ware horizons",
+      "War drums and martial praise",
+      "Muvendar",
+      "Tolkappiyam"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Black-and-red ware horizons, which is associated with material culture linked to late megalithic and early historic transitions.",
+    "topic": "Sangam Age",
+    "subtopic": "Archaeological context",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 93,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an archaeological context preceding and overlapping early historic developments?",
+    "options": [
+      "Gift-giving in Puram poetry",
+      "Maritime monsoon routes",
+      "Cattle raids in Sangam references",
+      "Megalithic burials"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Megalithic burials, which is associated with an archaeological context preceding and overlapping early historic developments.",
+    "topic": "Sangam Age",
+    "subtopic": "Archaeological context",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 94,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: important carriers of praise-poetry and courtly memory?",
+    "options": [
+      "Inland-coastal exchange",
+      "Akananuru",
+      "Bards (Panar and related groups)",
+      "Puram poetry"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Bards (Panar and related groups), which is associated with important carriers of praise-poetry and courtly memory.",
+    "topic": "Sangam Age",
+    "subtopic": "Society and patronage",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 95,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a political ethic connecting kingship and prestige?",
+    "options": [
+      "Nadukal (hero stones)",
+      "Gift-giving in Puram poetry",
+      "Muvendar",
+      "Bards (Panar and related groups)"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Gift-giving in Puram poetry, which is associated with a political ethic connecting kingship and prestige.",
+    "topic": "Sangam Age",
+    "subtopic": "Polity and kingship",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 96,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a motif tied to warfare and heroism in some landscapes?",
+    "options": [
+      "Salt production in littoral zones",
+      "Cattle raids in Sangam references",
+      "Vanji",
+      "Puhar (Kaveripattinam)"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Cattle raids in Sangam references, which is associated with a motif tied to warfare and heroism in some landscapes.",
+    "topic": "Sangam Age",
+    "subtopic": "Warfare and society",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 97,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an occupation associated with Neytal landscapes?",
+    "options": [
+      "Tinai",
+      "Periplus of the Erythraean Sea",
+      "Women in Sangam literature",
+      "Salt production in littoral zones"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Salt production in littoral zones, which is associated with an occupation associated with Neytal landscapes.",
+    "topic": "Sangam Age",
+    "subtopic": "Occupations and economy",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 98,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an agrarian pattern associated with Marutam tracts?",
+    "options": [
+      "Wet-rice cultivation",
+      "Megalithic burials",
+      "Salt production in littoral zones",
+      "Arikamedu"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Wet-rice cultivation, which is associated with an agrarian pattern associated with Marutam tracts.",
+    "topic": "Sangam Age",
+    "subtopic": "Agriculture",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 99,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: an economic feature linked to Mullai settings?",
+    "options": [
+      "Muvendar",
+      "Tolkappiyam",
+      "Pastoral mobility",
+      "Palai"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Pastoral mobility, which is associated with an economic feature linked to Mullai settings.",
+    "topic": "Sangam Age",
+    "subtopic": "Economy",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 100,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a key condition enabling seasonal overseas commerce?",
+    "options": [
+      "Maritime monsoon routes",
+      "Pastoral mobility",
+      "Periplus of the Erythraean Sea",
+      "War drums and martial praise"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Maritime monsoon routes, which is associated with a key condition enabling seasonal overseas commerce.",
+    "topic": "Sangam Age",
+    "subtopic": "Economic networks",
+    "difficulty": "Moderate"
+  }
+]

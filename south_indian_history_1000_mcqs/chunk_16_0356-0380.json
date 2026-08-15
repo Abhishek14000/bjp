@@ -1,0 +1,377 @@
+[
+  {
+    "id": 356,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: died in battle at Koppam?",
+    "options": [
+      "Historians use inscription clusters",
+      "Rajadhiraja I",
+      "Uttaramerur inscriptions",
+      "Administrative inscriptions"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Rajadhiraja I, which is associated with died in battle at Koppam.",
+    "topic": "Chola",
+    "subtopic": "Warfare and succession",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 357,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: linked Chola and Eastern Chalukya lineages?",
+    "options": [
+      "Sri Lankan campaigns",
+      "Royal titles and prasastis",
+      "Land survey and assessment",
+      "Kulottunga I"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Kulottunga I, which is associated with linked Chola and Eastern Chalukya lineages.",
+    "topic": "Chola",
+    "subtopic": "Succession and polity",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 358,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a major territorial division in Chola administration?",
+    "options": [
+      "Valanadu",
+      "Royal titles and prasastis",
+      "Mandalam",
+      "Coin circulation in Chola period"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Mandalam, which is associated with a major territorial division in Chola administration.",
+    "topic": "Chola",
+    "subtopic": "Administration",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 359,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: an intermediate Chola administrative division?",
+    "options": [
+      "Settlement hierarchy",
+      "Valanadu",
+      "Kudavolai selection process",
+      "Tank irrigation"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Valanadu, which is associated with an intermediate Chola administrative division.",
+    "topic": "Chola",
+    "subtopic": "Administration",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 360,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a key local territorial and fiscal unit?",
+    "options": [
+      "Administrative inscriptions",
+      "Kulottunga I",
+      "Rajendra I",
+      "Nadu"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Nadu, which is associated with a key local territorial and fiscal unit.",
+    "topic": "Chola",
+    "subtopic": "Administration",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 361,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a village assembly structure in non-brahmadeya settlements?",
+    "options": [
+      "Tamil literary patronage",
+      "Provincial governors and local elites",
+      "Land survey and assessment",
+      "Ur"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Ur, which is associated with a village assembly structure in non-brahmadeya settlements.",
+    "topic": "Chola",
+    "subtopic": "Local institutions",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 362,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a brahmadeya assembly institution in Chola polity?",
+    "options": [
+      "Sabha",
+      "Kudavolai selection process",
+      "Rajendra I northern campaign",
+      "Temple institutions"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Sabha, which is associated with a brahmadeya assembly institution in Chola polity.",
+    "topic": "Chola",
+    "subtopic": "Local institutions",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 363,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: an urban/mercantile corporate body in Chola records?",
+    "options": [
+      "Temple record-keeping",
+      "Craft specialization near temple towns",
+      "Tamil literary patronage",
+      "Nagaram"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Nagaram, which is associated with an urban/mercantile corporate body in Chola records.",
+    "topic": "Chola",
+    "subtopic": "Trade institutions",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 364,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: famous for detailing local institutional procedures?",
+    "options": [
+      "Rajadhiraja I",
+      "Aditya I",
+      "Nataraja bronze image",
+      "Uttaramerur inscriptions"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Uttaramerur inscriptions, which is associated with famous for detailing local institutional procedures.",
+    "topic": "Chola",
+    "subtopic": "Epigraphy and institutions",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 365,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: land grants to Brahmanas with fiscal implications?",
+    "options": [
+      "Imperial ritual donations",
+      "Epigraphic corpus in Tamil",
+      "Brahmadeya grants",
+      "Sri Lankan campaigns"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Brahmadeya grants, which is associated with land grants to Brahmanas with fiscal implications.",
+    "topic": "Chola",
+    "subtopic": "Revenue and land grants",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 366,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: land endowments made to temples?",
+    "options": [
+      "Airavatesvara at Darasuram",
+      "Devadana grants",
+      "Maritime links to Southeast Asia",
+      "Historians use inscription clusters"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Devadana grants, which is associated with land endowments made to temples.",
+    "topic": "Chola",
+    "subtopic": "Revenue and temple economy",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 367,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a foundation of Chola agrarian surplus?",
+    "options": [
+      "Agrarian-commercial linkage",
+      "Kaveri delta agriculture",
+      "Devadana grants",
+      "Royal temple construction"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Kaveri delta agriculture, which is associated with a foundation of Chola agrarian surplus.",
+    "topic": "Chola",
+    "subtopic": "Agrarian economy",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 368,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a major instrument of water management in Chola regions?",
+    "options": [
+      "Tank irrigation",
+      "Brahmadeya grants",
+      "Taxation in produce and cash forms",
+      "Canal and tank maintenance"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Tank irrigation, which is associated with a major instrument of water management in Chola regions.",
+    "topic": "Chola",
+    "subtopic": "Irrigation",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 369,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a merchant network associated with long-distance trade?",
+    "options": [
+      "Coin circulation in Chola period",
+      "Uttaramerur inscriptions",
+      "Temple institutions",
+      "Ayyavole 500"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Ayyavole 500, which is associated with a merchant network associated with long-distance trade.",
+    "topic": "Chola",
+    "subtopic": "Merchant guilds",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 370,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: an important merchant organization in South Indian trade?",
+    "options": [
+      "Nagapattinam",
+      "Manigramam",
+      "Bronze icon processions",
+      "Shaiva patronage"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Manigramam, which is associated with an important merchant organization in South Indian trade.",
+    "topic": "Chola",
+    "subtopic": "Merchant guilds",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 371,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a network associated with multi-regional commerce?",
+    "options": [
+      "Jain communities in Chola realm",
+      "Granary and storage functions",
+      "Uttaramerur inscriptions",
+      "Nanadesi merchants"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Nanadesi merchants, which is associated with a network associated with multi-regional commerce.",
+    "topic": "Chola",
+    "subtopic": "Merchant guilds",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 372,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a major Chola-era maritime node?",
+    "options": [
+      "Bronze icon processions",
+      "Nagapattinam",
+      "Canal and tank maintenance",
+      "Rajadhiraja I"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Nagapattinam, which is associated with a major Chola-era maritime node.",
+    "topic": "Chola",
+    "subtopic": "Ports and trade",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 373,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a significant component of imperial Chola warfare?",
+    "options": [
+      "Sri Lankan campaigns",
+      "Local assemblies and autonomy",
+      "Epigraphic corpus in Tamil",
+      "Nagaram"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Sri Lankan campaigns, which is associated with a significant component of imperial Chola warfare.",
+    "topic": "Chola",
+    "subtopic": "Warfare and expansion",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 374,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a key monument of imperial Chola architecture?",
+    "options": [
+      "Military mobilization",
+      "Sabha",
+      "Royal titles and prasastis",
+      "Brihadisvara temple"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Brihadisvara temple, which is associated with a key monument of imperial Chola architecture.",
+    "topic": "Chola",
+    "subtopic": "Architecture",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 375,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a major imperial temple linked to Rajendra I?",
+    "options": [
+      "Craft specialization near temple towns",
+      "Nanadesi merchants",
+      "Gangaikondacholisvara temple",
+      "Devadana grants"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Gangaikondacholisvara temple, which is associated with a major imperial temple linked to Rajendra I.",
+    "topic": "Chola",
+    "subtopic": "Architecture",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 376,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: a renowned later Chola temple monument?",
+    "options": [
+      "Diplomatic interactions overseas",
+      "Airavatesvara at Darasuram",
+      "Settlement hierarchy",
+      "Maritime links to Southeast Asia"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Airavatesvara at Darasuram, which is associated with a renowned later Chola temple monument.",
+    "topic": "Chola",
+    "subtopic": "Architecture",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 377,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: renowned for sophisticated lost-wax metal casting?",
+    "options": [
+      "Rajendra I northern campaign",
+      "Chola bronzes",
+      "Vijayalaya Chola",
+      "Taxation in produce and cash forms"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Chola bronzes, which is associated with renowned for sophisticated lost-wax metal casting.",
+    "topic": "Chola",
+    "subtopic": "Art",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 378,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: an iconic form in Chola artistic production?",
+    "options": [
+      "Temple institutions",
+      "Nataraja bronze image",
+      "Uttaramerur inscriptions",
+      "Ayyavole 500"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Nataraja bronze image, which is associated with an iconic form in Chola artistic production.",
+    "topic": "Chola",
+    "subtopic": "Art",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 379,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: major centres of redistribution, ritual, and local economy?",
+    "options": [
+      "Regional differentiation within empire",
+      "Nataraja bronze image",
+      "Ayyavole 500",
+      "Temple institutions"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Temple institutions, which is associated with major centres of redistribution, ritual, and local economy.",
+    "topic": "Chola",
+    "subtopic": "Temple economy",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 380,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: prominent in Chola religious endowments?",
+    "options": [
+      "Nadu",
+      "Kaveri delta agriculture",
+      "Shaiva patronage",
+      "Gangaikondacholisvara temple"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Shaiva patronage, which is associated with prominent in Chola religious endowments.",
+    "topic": "Chola",
+    "subtopic": "Religion",
+    "difficulty": "Easy"
+  }
+]

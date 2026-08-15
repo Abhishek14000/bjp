@@ -1,0 +1,377 @@
+[
+  {
+    "id": 406,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: tied to agrarian management and temple economy?",
+    "options": [
+      "Tamil literary patronage",
+      "Kaveri delta agriculture",
+      "Brahmadeya grants",
+      "Granary and storage functions"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Granary and storage functions, which is associated with tied to agrarian management and temple economy.",
+    "topic": "Chola",
+    "subtopic": "Agrarian economy",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 407,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: encoded memory of campaigns in regnal ideology?",
+    "options": [
+      "Military conquest titles",
+      "Manigramam",
+      "Bronze icon processions",
+      "Local assemblies and autonomy"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Military conquest titles, which is associated with encoded memory of campaigns in regnal ideology.",
+    "topic": "Chola",
+    "subtopic": "Kingship ideology",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 408,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: offer granular social and economic data?",
+    "options": [
+      "Nataraja bronze image",
+      "Granary and storage functions",
+      "Gift and endowment inscriptions",
+      "Devadana grants"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Gift and endowment inscriptions, which is associated with offer granular social and economic data.",
+    "topic": "Chola",
+    "subtopic": "Epigraphic sources",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 409,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: integrated ritual, art, and civic life?",
+    "options": [
+      "Settlement hierarchy",
+      "Bronze icon processions",
+      "Military conquest titles",
+      "Devadana grants"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Bronze icon processions, which is associated with integrated ritual, art, and civic life.",
+    "topic": "Chola",
+    "subtopic": "Culture",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 410,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: included artisans, accountants, and service groups?",
+    "options": [
+      "Rajadhiraja I",
+      "Temple labour networks",
+      "Sabha",
+      "Devotional networks"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Temple labour networks, which is associated with included artisans, accountants, and service groups.",
+    "topic": "Chola",
+    "subtopic": "Society and economy",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 411,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: contributed to fiscal resources in maritime zones?",
+    "options": [
+      "Port customs and levies",
+      "Nataraja bronze image",
+      "Settlement hierarchy",
+      "Epigraphic corpus in Tamil"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Port customs and levies, which is associated with contributed to fiscal resources in maritime zones.",
+    "topic": "Chola",
+    "subtopic": "Trade and revenue",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 412,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: required layered governance rather than uniform control?",
+    "options": [
+      "Regional differentiation within empire",
+      "Rajendra I",
+      "Canal and tank maintenance",
+      "Agrarian-commercial linkage"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Regional differentiation within empire, which is associated with required layered governance rather than uniform control.",
+    "topic": "Chola",
+    "subtopic": "Administration",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 413,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: underpinned Chola state capacity?",
+    "options": [
+      "Agrarian-commercial linkage",
+      "Rajadhiraja I",
+      "Local assemblies and autonomy",
+      "Canal and tank maintenance"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Agrarian-commercial linkage, which is associated with underpinned Chola state capacity.",
+    "topic": "Chola",
+    "subtopic": "Political economy",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 414,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: complemented military and mercantile objectives?",
+    "options": [
+      "Diplomatic interactions overseas",
+      "Epigraphic corpus in Tamil",
+      "Land survey and assessment",
+      "Valanadu"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Diplomatic interactions overseas, which is associated with complemented military and mercantile objectives.",
+    "topic": "Chola",
+    "subtopic": "Maritime relations",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 415,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: to map chronology and administrative change?",
+    "options": [
+      "Historians use inscription clusters",
+      "Land survey and assessment",
+      "Sabha",
+      "Temple record-keeping"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Historians use inscription clusters, which is associated with to map chronology and administrative change.",
+    "topic": "Chola",
+    "subtopic": "Historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 416,
+    "question": "Which term, place, ruler, or institution in Chola is associated with: ranged from villages to temple towns and ports?",
+    "options": [
+      "Rajaraja I",
+      "Intervention in Vengi politics",
+      "Settlement hierarchy",
+      "Sri Lankan campaigns"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Settlement hierarchy, which is associated with ranged from villages to temple towns and ports.",
+    "topic": "Chola",
+    "subtopic": "Urban and rural structure",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 417,
+    "question": "For source criticism in Chola, which statement about Vijayalaya Chola is correct?",
+    "options": [
+      "It is associated with ranged from villages to temple towns and ports.",
+      "It is associated with captured Thanjavur and established the foundation of imperial Chola power.",
+      "It is associated with a recurring feature of Chola eastern strategy.",
+      "It is associated with complemented military and mercantile objectives."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Vijayalaya Chola to captured Thanjavur and established the foundation of imperial Chola power, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 418,
+    "question": "For source criticism in Chola, which statement about Aditya I is correct?",
+    "options": [
+      "It is associated with consolidated Chola authority after defeating Pallava power.",
+      "It is associated with preserves data on endowments, taxes, and local committees.",
+      "It is associated with a major instrument of water management in Chola regions.",
+      "It is associated with a foundation of Chola agrarian surplus."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Aditya I to consolidated Chola authority after defeating Pallava power, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 419,
+    "question": "For source criticism in Chola, which statement about Parantaka I is correct?",
+    "options": [
+      "It is associated with expanded Chola influence and is linked with major inscriptional evidence.",
+      "It is associated with renowned for sophisticated lost-wax metal casting.",
+      "It is associated with a significant component of imperial Chola warfare.",
+      "It is associated with an important merchant organization in South Indian trade."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Parantaka I to expanded Chola influence and is linked with major inscriptional evidence, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 420,
+    "question": "For source criticism in Chola, which statement about Rajaraja I is correct?",
+    "options": [
+      "It is associated with reinforced political authority through sacred institutions.",
+      "It is associated with vital for stable delta productivity.",
+      "It is associated with built the Brihadisvara temple at Thanjavur.",
+      "It is associated with is remembered for a Ganges expedition reflected in imperial titulature."
+    ],
+    "answer": 2,
+    "explanation": "Available sources tie Rajaraja I to built the Brihadisvara temple at Thanjavur, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 421,
+    "question": "For source criticism in Chola, which statement about Rajendra I is correct?",
+    "options": [
+      "It is associated with shaped peninsular power balances.",
+      "It is associated with also present within Chola religious patronage patterns.",
+      "It is associated with required layered governance rather than uniform control.",
+      "It is associated with founded Gangaikondacholapuram."
+    ],
+    "answer": 3,
+    "explanation": "Available sources tie Rajendra I to founded Gangaikondacholapuram, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 422,
+    "question": "For source criticism in Chola, which statement about Rajendra I northern campaign is correct?",
+    "options": [
+      "It is associated with a major territorial division in Chola administration.",
+      "It is associated with an urban/mercantile corporate body in Chola records.",
+      "It is associated with is remembered for a Ganges expedition reflected in imperial titulature.",
+      "It is associated with linked Chola and Eastern Chalukya lineages."
+    ],
+    "answer": 2,
+    "explanation": "Available sources tie Rajendra I northern campaign to is remembered for a Ganges expedition reflected in imperial titulature, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 423,
+    "question": "For source criticism in Chola, which statement about Rajendra I maritime campaign is correct?",
+    "options": [
+      "It is associated with captured Thanjavur and established the foundation of imperial Chola power.",
+      "It is associated with included action against Srivijaya in Southeast Asia.",
+      "It is associated with is remembered for a Ganges expedition reflected in imperial titulature.",
+      "It is associated with a key local territorial and fiscal unit."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Rajendra I maritime campaign to included action against Srivijaya in Southeast Asia, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 424,
+    "question": "For source criticism in Chola, which statement about Rajadhiraja I is correct?",
+    "options": [
+      "It is associated with supported ritual, urban demand, and exchange.",
+      "It is associated with died in battle at Koppam.",
+      "It is associated with a key monument of imperial Chola architecture.",
+      "It is associated with encoded memory of campaigns in regnal ideology."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Rajadhiraja I to died in battle at Koppam, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 425,
+    "question": "For source criticism in Chola, which statement about Kulottunga I is correct?",
+    "options": [
+      "It is associated with expanded Chola influence and is linked with major inscriptional evidence.",
+      "It is associated with enabled Chola trade and political reach.",
+      "It is associated with linked Chola and Eastern Chalukya lineages.",
+      "It is associated with offer granular social and economic data."
+    ],
+    "answer": 2,
+    "explanation": "Available sources tie Kulottunga I to linked Chola and Eastern Chalukya lineages, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 426,
+    "question": "For source criticism in Chola, which statement about Mandalam is correct?",
+    "options": [
+      "It is associated with a brahmadeya assembly institution in Chola polity.",
+      "It is associated with a major territorial division in Chola administration.",
+      "It is associated with connected agrarian frontiers with institutional change.",
+      "It is associated with died in battle at Koppam."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Mandalam to a major territorial division in Chola administration, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 427,
+    "question": "For source criticism in Chola, which statement about Valanadu is correct?",
+    "options": [
+      "It is associated with an intermediate Chola administrative division.",
+      "It is associated with associated with local committee procedures in inscriptions.",
+      "It is associated with captured Thanjavur and established the foundation of imperial Chola power.",
+      "It is associated with underpinned Chola state capacity."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Valanadu to an intermediate Chola administrative division, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 428,
+    "question": "For source criticism in Chola, which statement about Nadu is correct?",
+    "options": [
+      "It is associated with functioned as political statement and sacred patronage.",
+      "It is associated with a major imperial temple linked to Rajendra I.",
+      "It is associated with a key local territorial and fiscal unit.",
+      "It is associated with a merchant network associated with long-distance trade."
+    ],
+    "answer": 2,
+    "explanation": "Available sources tie Nadu to a key local territorial and fiscal unit, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 429,
+    "question": "For source criticism in Chola, which statement about Ur is correct?",
+    "options": [
+      "It is associated with a village assembly structure in non-brahmadeya settlements.",
+      "It is associated with a major Chola-era maritime node.",
+      "It is associated with part of Chola commercial and political outreach.",
+      "It is associated with required layered governance rather than uniform control."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Ur to a village assembly structure in non-brahmadeya settlements, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 430,
+    "question": "For source criticism in Chola, which statement about Sabha is correct?",
+    "options": [
+      "It is associated with is remembered for a Ganges expedition reflected in imperial titulature.",
+      "It is associated with a major Chola-era maritime node.",
+      "It is associated with renowned for sophisticated lost-wax metal casting.",
+      "It is associated with a brahmadeya assembly institution in Chola polity."
+    ],
+    "answer": 3,
+    "explanation": "Available sources tie Sabha to a brahmadeya assembly institution in Chola polity, not to the alternative pairings listed.",
+    "topic": "Chola",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  }
+]

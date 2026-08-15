@@ -1,0 +1,377 @@
+[
+  {
+    "id": 281,
+    "question": "In Chola history, Vijayalaya Chola is most accurately associated with which description?",
+    "options": [
+      "continued under Chola rule in diverse forms",
+      "operated within broader imperial frameworks",
+      "is remembered for a Ganges expedition reflected in imperial titulature",
+      "captured Thanjavur and established the foundation of imperial Chola power"
+    ],
+    "answer": 3,
+    "explanation": "Vijayalaya Chola is correctly associated with captured Thanjavur and established the foundation of imperial Chola power.",
+    "topic": "Chola",
+    "subtopic": "Political history",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 282,
+    "question": "In Chola history, Aditya I is most accurately associated with which description?",
+    "options": [
+      "renowned for sophisticated lost-wax metal casting",
+      "part of Chola commercial and political outreach",
+      "a recurring feature of Chola eastern strategy",
+      "consolidated Chola authority after defeating Pallava power"
+    ],
+    "answer": 3,
+    "explanation": "Aditya I is correctly associated with consolidated Chola authority after defeating Pallava power.",
+    "topic": "Chola",
+    "subtopic": "Political history",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 283,
+    "question": "In Chola history, Parantaka I is most accurately associated with which description?",
+    "options": [
+      "interacted with temple-centred redistribution",
+      "vital for stable delta productivity",
+      "coexisted with Tamil in elite and ritual contexts",
+      "expanded Chola influence and is linked with major inscriptional evidence"
+    ],
+    "answer": 3,
+    "explanation": "Parantaka I is correctly associated with expanded Chola influence and is linked with major inscriptional evidence.",
+    "topic": "Chola",
+    "subtopic": "Political history",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 284,
+    "question": "In Chola history, Rajaraja I is most accurately associated with which description?",
+    "options": [
+      "a major instrument of water management in Chola regions",
+      "built the Brihadisvara temple at Thanjavur",
+      "an important merchant organization in South Indian trade",
+      "integrated ritual, art, and civic life"
+    ],
+    "answer": 1,
+    "explanation": "Rajaraja I is correctly associated with built the Brihadisvara temple at Thanjavur.",
+    "topic": "Chola",
+    "subtopic": "Architecture",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 285,
+    "question": "In Chola history, Rajendra I is most accurately associated with which description?",
+    "options": [
+      "coexisted with Tamil in elite and ritual contexts",
+      "died in battle at Koppam",
+      "founded Gangaikondacholapuram",
+      "also present within Chola religious patronage patterns"
+    ],
+    "answer": 2,
+    "explanation": "Rajendra I is correctly associated with founded Gangaikondacholapuram.",
+    "topic": "Chola",
+    "subtopic": "Political history",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 286,
+    "question": "In Chola history, Rajendra I northern campaign is most accurately associated with which description?",
+    "options": [
+      "continued under Chola rule in diverse forms",
+      "part of Chola commercial and political outreach",
+      "included action against Srivijaya in Southeast Asia",
+      "is remembered for a Ganges expedition reflected in imperial titulature"
+    ],
+    "answer": 3,
+    "explanation": "Rajendra I northern campaign is correctly associated with is remembered for a Ganges expedition reflected in imperial titulature.",
+    "topic": "Chola",
+    "subtopic": "Warfare and expansion",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 287,
+    "question": "In Chola history, Rajendra I maritime campaign is most accurately associated with which description?",
+    "options": [
+      "included action against Srivijaya in Southeast Asia",
+      "associated with local committee procedures in inscriptions",
+      "coexisted with Tamil in elite and ritual contexts",
+      "a merchant network associated with long-distance trade"
+    ],
+    "answer": 0,
+    "explanation": "Rajendra I maritime campaign is correctly associated with included action against Srivijaya in Southeast Asia.",
+    "topic": "Chola",
+    "subtopic": "Maritime relations",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 288,
+    "question": "In Chola history, Rajadhiraja I is most accurately associated with which description?",
+    "options": [
+      "also present within Chola religious patronage patterns",
+      "reinforced political authority through sacred institutions",
+      "died in battle at Koppam",
+      "visible across epigraphic records"
+    ],
+    "answer": 2,
+    "explanation": "Rajadhiraja I is correctly associated with died in battle at Koppam.",
+    "topic": "Chola",
+    "subtopic": "Warfare and succession",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 289,
+    "question": "In Chola history, Kulottunga I is most accurately associated with which description?",
+    "options": [
+      "shaped peninsular power balances",
+      "vital for stable delta productivity",
+      "famous for detailing local institutional procedures",
+      "linked Chola and Eastern Chalukya lineages"
+    ],
+    "answer": 3,
+    "explanation": "Kulottunga I is correctly associated with linked Chola and Eastern Chalukya lineages.",
+    "topic": "Chola",
+    "subtopic": "Succession and polity",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 290,
+    "question": "In Chola history, Mandalam is most accurately associated with which description?",
+    "options": [
+      "is remembered for a Ganges expedition reflected in imperial titulature",
+      "visible across epigraphic records",
+      "a major territorial division in Chola administration",
+      "a brahmadeya assembly institution in Chola polity"
+    ],
+    "answer": 2,
+    "explanation": "Mandalam is correctly associated with a major territorial division in Chola administration.",
+    "topic": "Chola",
+    "subtopic": "Administration",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 291,
+    "question": "In Chola history, Valanadu is most accurately associated with which description?",
+    "options": [
+      "a brahmadeya assembly institution in Chola polity",
+      "a major imperial temple linked to Rajendra I",
+      "an intermediate Chola administrative division",
+      "connected agrarian frontiers with institutional change"
+    ],
+    "answer": 2,
+    "explanation": "Valanadu is correctly associated with an intermediate Chola administrative division.",
+    "topic": "Chola",
+    "subtopic": "Administration",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 292,
+    "question": "In Chola history, Nadu is most accurately associated with which description?",
+    "options": [
+      "coexisted with Tamil in elite and ritual contexts",
+      "a key local territorial and fiscal unit",
+      "captured Thanjavur and established the foundation of imperial Chola power",
+      "built the Brihadisvara temple at Thanjavur"
+    ],
+    "answer": 1,
+    "explanation": "Nadu is correctly associated with a key local territorial and fiscal unit.",
+    "topic": "Chola",
+    "subtopic": "Administration",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 293,
+    "question": "In Chola history, Ur is most accurately associated with which description?",
+    "options": [
+      "land grants to Brahmanas with fiscal implications",
+      "a village assembly structure in non-brahmadeya settlements",
+      "included action against Srivijaya in Southeast Asia",
+      "also present within Chola religious patronage patterns"
+    ],
+    "answer": 1,
+    "explanation": "Ur is correctly associated with a village assembly structure in non-brahmadeya settlements.",
+    "topic": "Chola",
+    "subtopic": "Local institutions",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 294,
+    "question": "In Chola history, Sabha is most accurately associated with which description?",
+    "options": [
+      "a recurring feature of Chola eastern strategy",
+      "built the Brihadisvara temple at Thanjavur",
+      "a brahmadeya assembly institution in Chola polity",
+      "used to project conquest and legitimacy"
+    ],
+    "answer": 2,
+    "explanation": "Sabha is correctly associated with a brahmadeya assembly institution in Chola polity.",
+    "topic": "Chola",
+    "subtopic": "Local institutions",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 295,
+    "question": "In Chola history, Nagaram is most accurately associated with which description?",
+    "options": [
+      "an urban/mercantile corporate body in Chola records",
+      "contributed to fiscal resources in maritime zones",
+      "a renowned later Chola temple monument",
+      "to map chronology and administrative change"
+    ],
+    "answer": 0,
+    "explanation": "Nagaram is correctly associated with an urban/mercantile corporate body in Chola records.",
+    "topic": "Chola",
+    "subtopic": "Trade institutions",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 296,
+    "question": "In Chola history, Uttaramerur inscriptions is most accurately associated with which description?",
+    "options": [
+      "a brahmadeya assembly institution in Chola polity",
+      "part of Chola commercial and political outreach",
+      "complemented military and mercantile objectives",
+      "famous for detailing local institutional procedures"
+    ],
+    "answer": 3,
+    "explanation": "Uttaramerur inscriptions is correctly associated with famous for detailing local institutional procedures.",
+    "topic": "Chola",
+    "subtopic": "Epigraphy and institutions",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 297,
+    "question": "In Chola history, Brahmadeya grants is most accurately associated with which description?",
+    "options": [
+      "to map chronology and administrative change",
+      "contributed to fiscal resources in maritime zones",
+      "a network associated with multi-regional commerce",
+      "land grants to Brahmanas with fiscal implications"
+    ],
+    "answer": 3,
+    "explanation": "Brahmadeya grants is correctly associated with land grants to Brahmanas with fiscal implications.",
+    "topic": "Chola",
+    "subtopic": "Revenue and land grants",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 298,
+    "question": "In Chola history, Devadana grants is most accurately associated with which description?",
+    "options": [
+      "coexisted with Tamil in elite and ritual contexts",
+      "land endowments made to temples",
+      "contributed to fiscal resources in maritime zones",
+      "complemented military and mercantile objectives"
+    ],
+    "answer": 1,
+    "explanation": "Devadana grants is correctly associated with land endowments made to temples.",
+    "topic": "Chola",
+    "subtopic": "Revenue and temple economy",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 299,
+    "question": "In Chola history, Kaveri delta agriculture is most accurately associated with which description?",
+    "options": [
+      "a network associated with multi-regional commerce",
+      "a foundation of Chola agrarian surplus",
+      "a recurring feature of Chola eastern strategy",
+      "died in battle at Koppam"
+    ],
+    "answer": 1,
+    "explanation": "Kaveri delta agriculture is correctly associated with a foundation of Chola agrarian surplus.",
+    "topic": "Chola",
+    "subtopic": "Agrarian economy",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 300,
+    "question": "In Chola history, Tank irrigation is most accurately associated with which description?",
+    "options": [
+      "a major instrument of water management in Chola regions",
+      "complemented military and mercantile objectives",
+      "land grants to Brahmanas with fiscal implications",
+      "ranged from villages to temple towns and ports"
+    ],
+    "answer": 0,
+    "explanation": "Tank irrigation is correctly associated with a major instrument of water management in Chola regions.",
+    "topic": "Chola",
+    "subtopic": "Irrigation",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 301,
+    "question": "In Chola history, Ayyavole 500 is most accurately associated with which description?",
+    "options": [
+      "a network associated with multi-regional commerce",
+      "tied to agrarian management and temple economy",
+      "a merchant network associated with long-distance trade",
+      "coexisted with Tamil in elite and ritual contexts"
+    ],
+    "answer": 2,
+    "explanation": "Ayyavole 500 is correctly associated with a merchant network associated with long-distance trade.",
+    "topic": "Chola",
+    "subtopic": "Merchant guilds",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 302,
+    "question": "In Chola history, Manigramam is most accurately associated with which description?",
+    "options": [
+      "offer granular social and economic data",
+      "an important merchant organization in South Indian trade",
+      "enabled Chola trade and political reach",
+      "included infantry, cavalry, elephants, and naval elements"
+    ],
+    "answer": 1,
+    "explanation": "Manigramam is correctly associated with an important merchant organization in South Indian trade.",
+    "topic": "Chola",
+    "subtopic": "Merchant guilds",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 303,
+    "question": "In Chola history, Nanadesi merchants is most accurately associated with which description?",
+    "options": [
+      "a key local territorial and fiscal unit",
+      "land endowments made to temples",
+      "a network associated with multi-regional commerce",
+      "encoded memory of campaigns in regnal ideology"
+    ],
+    "answer": 2,
+    "explanation": "Nanadesi merchants is correctly associated with a network associated with multi-regional commerce.",
+    "topic": "Chola",
+    "subtopic": "Merchant guilds",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 304,
+    "question": "In Chola history, Nagapattinam is most accurately associated with which description?",
+    "options": [
+      "a major Chola-era maritime node",
+      "supported ritual, urban demand, and exchange",
+      "functioned as political statement and sacred patronage",
+      "vital for stable delta productivity"
+    ],
+    "answer": 0,
+    "explanation": "Nagapattinam is correctly associated with a major Chola-era maritime node.",
+    "topic": "Chola",
+    "subtopic": "Ports and trade",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 305,
+    "question": "In Chola history, Sri Lankan campaigns is most accurately associated with which description?",
+    "options": [
+      "built the Brihadisvara temple at Thanjavur",
+      "a significant component of imperial Chola warfare",
+      "visible across epigraphic records",
+      "prominent in Chola religious endowments"
+    ],
+    "answer": 1,
+    "explanation": "Sri Lankan campaigns is correctly associated with a significant component of imperial Chola warfare.",
+    "topic": "Chola",
+    "subtopic": "Warfare and expansion",
+    "difficulty": "Difficult"
+  }
+]

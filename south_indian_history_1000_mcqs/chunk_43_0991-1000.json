@@ -1,0 +1,152 @@
+[
+  {
+    "id": 991,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Sangam polities is correct?",
+    "options": [
+      "It is associated with both depended on port-hinterland integration.",
+      "It is associated with is better documented in inscriptions than Sangam-era institutions.",
+      "It is associated with are linked by succession and rivalry cycles.",
+      "It is associated with show layered authority with crowned kings and chieftains."
+    ],
+    "answer": 3,
+    "explanation": "Available sources tie Sangam polities to show layered authority with crowned kings and chieftains, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Polity comparison",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 992,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Chola administration is correct?",
+    "options": [
+      "It is associated with played larger fiscal roles in medieval Chola-Pandya-Chalukya settings.",
+      "It is associated with is better documented in inscriptions than Sangam-era institutions.",
+      "It is associated with structured power balance in the Tamil region.",
+      "It is associated with connected inland production with maritime exchange across dynasties."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Chola administration to is better documented in inscriptions than Sangam-era institutions, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Institutions comparison",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 993,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Chera and Pandya maritime economies is correct?",
+    "options": [
+      "It is associated with show regionally distinct temple-building trajectories.",
+      "It is associated with both depended on port-hinterland integration.",
+      "It is associated with is a distinctive marine specialization in south Tamil regions.",
+      "It is associated with are linked by succession and rivalry cycles."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Chera and Pandya maritime economies to both depended on port-hinterland integration, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Economic comparison",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 994,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Muziris and Korkai is correct?",
+    "options": [
+      "It is associated with represent distinct but complementary west and southeast coastal trade nodes.",
+      "It is associated with is stronger for early historic coastal contexts than for later imperial periods.",
+      "It is associated with both exhibit major stone architecture under royal patronage.",
+      "It is associated with played larger fiscal roles in medieval Chola-Pandya-Chalukya settings."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Muziris and Korkai to represent distinct but complementary west and southeast coastal trade nodes, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Ports comparison",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 995,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Chola and Chalukya temple traditions is correct?",
+    "options": [
+      "It is associated with both exhibit major stone architecture under royal patronage.",
+      "It is associated with is stronger for early historic coastal contexts than for later imperial periods.",
+      "It is associated with functioned as political as well as economic spaces.",
+      "It is associated with require cross-corroboration because source genres differ."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Chola and Chalukya temple traditions to both exhibit major stone architecture under royal patronage, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Architecture comparison",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 996,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Rashtrakuta and Chalukya Deccan politics is correct?",
+    "options": [
+      "It is associated with shaped warfare and alliance patterns across centuries.",
+      "It is associated with are linked by succession and rivalry cycles.",
+      "It is associated with became more inscriptionally visible in Chola than Sangam contexts.",
+      "It is associated with are crucial across all listed traditions for chronology."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Rashtrakuta and Chalukya Deccan politics to are linked by succession and rivalry cycles, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Political transition",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 997,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Brahmadeya and devadana patterns is correct?",
+    "options": [
+      "It is associated with both supported Sanskrit and regional language cultures.",
+      "It is associated with is better documented in inscriptions than Sangam-era institutions.",
+      "It is associated with is more explicit in state campaigns than in Sangam-age records.",
+      "It is associated with illustrate land-right transfers in multiple south Indian traditions."
+    ],
+    "answer": 3,
+    "explanation": "Available sources tie Brahmadeya and devadana patterns to illustrate land-right transfers in multiple south Indian traditions, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Land grants comparison",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 998,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Local corporate institutions is correct?",
+    "options": [
+      "It is associated with became more inscriptionally visible in Chola than Sangam contexts.",
+      "It is associated with show regionally distinct temple-building trajectories.",
+      "It is associated with symbolize different dynastic idioms of monumental kingship.",
+      "It is associated with jointly sustained major south Indian states."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Local corporate institutions to became more inscriptionally visible in Chola than Sangam contexts, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Institutions comparison",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 999,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Merchant guilds is correct?",
+    "options": [
+      "It is associated with connected inland production with maritime exchange across dynasties.",
+      "It is associated with are linked by succession and rivalry cycles.",
+      "It is associated with is better documented in inscriptions than Sangam-era institutions.",
+      "It is associated with both depended on port-hinterland integration."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Merchant guilds to connected inland production with maritime exchange across dynasties, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Trade comparison",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 1000,
+    "question": "For source criticism in Comparative / Inter-dynastic, which statement about Roman-contact evidence is correct?",
+    "options": [
+      "It is associated with is stronger for early historic coastal contexts than for later imperial periods.",
+      "It is associated with are linked by succession and rivalry cycles.",
+      "It is associated with connected inland production with maritime exchange across dynasties.",
+      "It is associated with is a distinctive marine specialization in south Tamil regions."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Roman-contact evidence to is stronger for early historic coastal contexts than for later imperial periods, not to the alternative pairings listed.",
+    "topic": "Comparative / Inter-dynastic",
+    "subtopic": "Chronology comparison",
+    "difficulty": "Difficult"
+  }
+]

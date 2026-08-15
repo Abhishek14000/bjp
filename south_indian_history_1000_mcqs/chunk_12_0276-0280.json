@@ -1,0 +1,77 @@
+[
+  {
+    "id": 276,
+    "question": "Within the study of Chera, which description best matches Arab maritime linkages?",
+    "options": [
+      "supported exchange circuits tied to maritime nodes",
+      "a symbol associated with Chera political identity",
+      "important to the coastal commerce of Chera-linked regions",
+      "significant in the later first-millennium west-coast trade world"
+    ],
+    "answer": 3,
+    "explanation": "Arab maritime linkages is correctly associated with significant in the later first-millennium west-coast trade world.",
+    "topic": "Chera",
+    "subtopic": "Maritime networks",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 277,
+    "question": "Within the study of Chera, which description best matches Spice exports?",
+    "options": [
+      "a recurring pattern in Kerala political structure",
+      "a key driver of commercial prominence in Chera-associated regions",
+      "a capital centre in the Chera Perumal phase",
+      "a major port connected to Mediterranean and West Asian maritime trade"
+    ],
+    "answer": 1,
+    "explanation": "Spice exports is correctly associated with a key driver of commercial prominence in Chera-associated regions.",
+    "topic": "Chera",
+    "subtopic": "Economy and trade",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 278,
+    "question": "Within the study of Chera, which description best matches Riverine access to ports?",
+    "options": [
+      "a major commodity stream in Chera maritime economy",
+      "important for moving goods from hinterland to coast",
+      "a later phase of Kerala political history often linked to Chera traditions",
+      "significant in the later first-millennium west-coast trade world"
+    ],
+    "answer": 1,
+    "explanation": "Riverine access to ports is correctly associated with important for moving goods from hinterland to coast.",
+    "topic": "Chera",
+    "subtopic": "Economic geography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 279,
+    "question": "Within the study of Chera, which description best matches Local chiefs and overlordship?",
+    "options": [
+      "a key reference point in early Chera political geography",
+      "a capital centre in the Chera Perumal phase",
+      "a recurring pattern in Kerala political structure",
+      "a Sangam anthology especially important for early Chera lineages"
+    ],
+    "answer": 2,
+    "explanation": "Local chiefs and overlordship is correctly associated with a recurring pattern in Kerala political structure.",
+    "topic": "Chera",
+    "subtopic": "Polity and kingship",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 280,
+    "question": "Within the study of Chera, which description best matches Land grants to religious bodies?",
+    "options": [
+      "a hallmark of pragmatic statecraft in many phases",
+      "important documentary evidence for social and commercial privileges",
+      "a major port connected to Mediterranean and West Asian maritime trade",
+      "a feature of socio-political legitimation"
+    ],
+    "answer": 3,
+    "explanation": "Land grants to religious bodies is correctly associated with a feature of socio-political legitimation.",
+    "topic": "Chera",
+    "subtopic": "Administration and revenue",
+    "difficulty": "Difficult"
+  }
+]

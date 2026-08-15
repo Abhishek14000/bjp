@@ -1,0 +1,377 @@
+[
+  {
+    "id": 251,
+    "question": "For source criticism in Chera, which statement about Port-polity interaction is correct?",
+    "options": [
+      "It is associated with central to understanding Chera political economy.",
+      "It is associated with a capital centre in the Chera Perumal phase.",
+      "It is associated with critical for checking literary claims about Chera history.",
+      "It is associated with supported exchange circuits tied to maritime nodes."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Port-polity interaction to central to understanding Chera political economy, not to the alternative pairings listed.",
+    "topic": "Chera",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 252,
+    "question": "For source criticism in Chera, which statement about Multi-religious patronage is correct?",
+    "options": [
+      "It is associated with critical for checking literary claims about Chera history.",
+      "It is associated with a likely source of political revenue in port zones.",
+      "It is associated with important to social and agrarian transformations.",
+      "It is associated with a hallmark of pragmatic statecraft in many phases."
+    ],
+    "answer": 3,
+    "explanation": "Available sources tie Multi-religious patronage to a hallmark of pragmatic statecraft in many phases, not to the alternative pairings listed.",
+    "topic": "Chera",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 253,
+    "question": "For source criticism in Chera, which statement about Monsoon-dependent navigation is correct?",
+    "options": [
+      "It is associated with supported surplus in inland tracts.",
+      "It is associated with an important west-coast port in medieval Kerala networks.",
+      "It is associated with part of the wider religious landscape in early-medieval Kerala contexts.",
+      "It is associated with a regular feature of west-coast maritime timing."
+    ],
+    "answer": 3,
+    "explanation": "Available sources tie Monsoon-dependent navigation to a regular feature of west-coast maritime timing, not to the alternative pairings listed.",
+    "topic": "Chera",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 254,
+    "question": "For source criticism in Chera, which statement about Taxation tied to trade routes is correct?",
+    "options": [
+      "It is associated with visible in religious institutions of Chera-linked regions.",
+      "It is associated with a likely source of political revenue in port zones.",
+      "It is associated with a key reference point in early Chera political geography.",
+      "It is associated with a recurring pattern in Kerala political structure."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Taxation tied to trade routes to a likely source of political revenue in port zones, not to the alternative pairings listed.",
+    "topic": "Chera",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 255,
+    "question": "For source criticism in Chera, which statement about Cultural patronage in temple spaces is correct?",
+    "options": [
+      "It is associated with a major commodity stream in Chera maritime economy.",
+      "It is associated with important documentary evidence for social and commercial privileges.",
+      "It is associated with important for social integration and authority.",
+      "It is associated with important for moving goods from hinterland to coast."
+    ],
+    "answer": 2,
+    "explanation": "Available sources tie Cultural patronage in temple spaces to important for social integration and authority, not to the alternative pairings listed.",
+    "topic": "Chera",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 256,
+    "question": "Within the study of Chera, which description best matches Muziris?",
+    "options": [
+      "archaeological clues to long-distance exchange in Chera-linked regions",
+      "visible in later Chera-Perumal era records",
+      "a symbol associated with Chera political identity",
+      "a major port connected to Mediterranean and West Asian maritime trade"
+    ],
+    "answer": 3,
+    "explanation": "Muziris is correctly associated with a major port connected to Mediterranean and West Asian maritime trade.",
+    "topic": "Chera",
+    "subtopic": "Ports and maritime commerce",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 257,
+    "question": "Within the study of Chera, which description best matches Vanji/Karur association?",
+    "options": [
+      "important for social integration and authority",
+      "a ruler associated with Pattini-related literary memory",
+      "a key reference point in early Chera political geography",
+      "important for understanding Chera historiography"
+    ],
+    "answer": 2,
+    "explanation": "Vanji/Karur association is correctly associated with a key reference point in early Chera political geography.",
+    "topic": "Chera",
+    "subtopic": "Political geography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 258,
+    "question": "Within the study of Chera, which description best matches Chera emblematic bow motif?",
+    "options": [
+      "important for social integration and authority",
+      "a symbol associated with Chera political identity",
+      "a major commodity stream in Chera maritime economy",
+      "a capital centre in the Chera Perumal phase"
+    ],
+    "answer": 1,
+    "explanation": "Chera emblematic bow motif is correctly associated with a symbol associated with Chera political identity.",
+    "topic": "Chera",
+    "subtopic": "Polity and kingship",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 259,
+    "question": "Within the study of Chera, which description best matches Senguttuvan Chera in tradition?",
+    "options": [
+      "important documentary evidence for social and commercial privileges",
+      "a ruler associated with Pattini-related literary memory",
+      "a Sangam anthology especially important for early Chera lineages",
+      "important for social integration and authority"
+    ],
+    "answer": 1,
+    "explanation": "Senguttuvan Chera in tradition is correctly associated with a ruler associated with Pattini-related literary memory.",
+    "topic": "Chera",
+    "subtopic": "Literature and tradition",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 260,
+    "question": "Within the study of Chera, which description best matches Pathitrupathu?",
+    "options": [
+      "important documentary evidence for social and commercial privileges",
+      "a feature of socio-political legitimation",
+      "a Sangam anthology especially important for early Chera lineages",
+      "critical for checking literary claims about Chera history"
+    ],
+    "answer": 2,
+    "explanation": "Pathitrupathu is correctly associated with a Sangam anthology especially important for early Chera lineages.",
+    "topic": "Chera",
+    "subtopic": "Literary sources",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 261,
+    "question": "Within the study of Chera, which description best matches Periplus references to west-coast trade?",
+    "options": [
+      "a likely source of political revenue in port zones",
+      "external evidence for commerce linked to Chera zones",
+      "an important west-coast port in medieval Kerala networks",
+      "supported exchange circuits tied to maritime nodes"
+    ],
+    "answer": 1,
+    "explanation": "Periplus references to west-coast trade is correctly associated with external evidence for commerce linked to Chera zones.",
+    "topic": "Chera",
+    "subtopic": "Foreign accounts",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 262,
+    "question": "Within the study of Chera, which description best matches Roman amphora and coin finds?",
+    "options": [
+      "critical for checking literary claims about Chera history",
+      "supported surplus in inland tracts",
+      "archaeological clues to long-distance exchange in Chera-linked regions",
+      "a likely source of political revenue in port zones"
+    ],
+    "answer": 2,
+    "explanation": "Roman amphora and coin finds is correctly associated with archaeological clues to long-distance exchange in Chera-linked regions.",
+    "topic": "Chera",
+    "subtopic": "Archaeology",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 263,
+    "question": "Within the study of Chera, which description best matches Pepper trade from Malabar?",
+    "options": [
+      "external evidence for commerce linked to Chera zones",
+      "a key narrative layer for early Chera reconstruction",
+      "visible in later Chera-Perumal era records",
+      "a major commodity stream in Chera maritime economy"
+    ],
+    "answer": 3,
+    "explanation": "Pepper trade from Malabar is correctly associated with a major commodity stream in Chera maritime economy.",
+    "topic": "Chera",
+    "subtopic": "Economy and trade",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 264,
+    "question": "Within the study of Chera, which description best matches Chera Perumal period?",
+    "options": [
+      "a feature of socio-political legitimation",
+      "important documentary evidence for social and commercial privileges",
+      "a symbol associated with Chera political identity",
+      "a later phase of Kerala political history often linked to Chera traditions"
+    ],
+    "answer": 3,
+    "explanation": "Chera Perumal period is correctly associated with a later phase of Kerala political history often linked to Chera traditions.",
+    "topic": "Chera",
+    "subtopic": "Chronology",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 265,
+    "question": "Within the study of Chera, which description best matches Mahodayapuram (Makotai)?",
+    "options": [
+      "a key reference point in early Chera political geography",
+      "a capital centre in the Chera Perumal phase",
+      "a Sangam anthology especially important for early Chera lineages",
+      "important to the coastal commerce of Chera-linked regions"
+    ],
+    "answer": 1,
+    "explanation": "Mahodayapuram (Makotai) is correctly associated with a capital centre in the Chera Perumal phase.",
+    "topic": "Chera",
+    "subtopic": "Urban centres",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 266,
+    "question": "Within the study of Chera, which description best matches Kollam (Quilon)?",
+    "options": [
+      "a later phase of Kerala political history often linked to Chera traditions",
+      "an important west-coast port in medieval Kerala networks",
+      "a hallmark of pragmatic statecraft in many phases",
+      "central to understanding Chera political economy"
+    ],
+    "answer": 1,
+    "explanation": "Kollam (Quilon) is correctly associated with an important west-coast port in medieval Kerala networks.",
+    "topic": "Chera",
+    "subtopic": "Ports and maritime commerce",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 267,
+    "question": "Within the study of Chera, which description best matches Kodungallur tradition?",
+    "options": [
+      "a feature of socio-political legitimation",
+      "important to social and agrarian transformations",
+      "a regular feature of west-coast maritime timing",
+      "often linked in historical memory with earlier maritime prominence"
+    ],
+    "answer": 3,
+    "explanation": "Kodungallur tradition is correctly associated with often linked in historical memory with earlier maritime prominence.",
+    "topic": "Chera",
+    "subtopic": "Historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 268,
+    "question": "Within the study of Chera, which description best matches West Asian merchant contacts?",
+    "options": [
+      "important to the coastal commerce of Chera-linked regions",
+      "central to understanding Chera political economy",
+      "important documentary evidence for social and commercial privileges",
+      "often linked in historical memory with earlier maritime prominence"
+    ],
+    "answer": 0,
+    "explanation": "West Asian merchant contacts is correctly associated with important to the coastal commerce of Chera-linked regions.",
+    "topic": "Chera",
+    "subtopic": "Maritime networks",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 269,
+    "question": "Within the study of Chera, which description best matches Temple-centred landholding patterns?",
+    "options": [
+      "a major commodity stream in Chera maritime economy",
+      "a later phase of Kerala political history often linked to Chera traditions",
+      "an important west-coast port in medieval Kerala networks",
+      "visible in later Chera-Perumal era records"
+    ],
+    "answer": 3,
+    "explanation": "Temple-centred landholding patterns is correctly associated with visible in later Chera-Perumal era records.",
+    "topic": "Chera",
+    "subtopic": "Administration and economy",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 270,
+    "question": "Within the study of Chera, which description best matches Copper plate charters in Kerala?",
+    "options": [
+      "a key reference point in early Chera political geography",
+      "archaeological clues to long-distance exchange in Chera-linked regions",
+      "important documentary evidence for social and commercial privileges",
+      "visible in later Chera-Perumal era records"
+    ],
+    "answer": 2,
+    "explanation": "Copper plate charters in Kerala is correctly associated with important documentary evidence for social and commercial privileges.",
+    "topic": "Chera",
+    "subtopic": "Epigraphic sources",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 271,
+    "question": "Within the study of Chera, which description best matches Jain and Buddhist presence?",
+    "options": [
+      "a structural basis of west-coast commerce",
+      "part of the wider religious landscape in early-medieval Kerala contexts",
+      "central to understanding Chera political economy",
+      "important for social integration and authority"
+    ],
+    "answer": 1,
+    "explanation": "Jain and Buddhist presence is correctly associated with part of the wider religious landscape in early-medieval Kerala contexts.",
+    "topic": "Chera",
+    "subtopic": "Religion",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 272,
+    "question": "Within the study of Chera, which description best matches Shaiva and Vaishnava patronage?",
+    "options": [
+      "a hallmark of pragmatic statecraft in many phases",
+      "an important west-coast port in medieval Kerala networks",
+      "significant in the later first-millennium west-coast trade world",
+      "visible in religious institutions of Chera-linked regions"
+    ],
+    "answer": 3,
+    "explanation": "Shaiva and Vaishnava patronage is correctly associated with visible in religious institutions of Chera-linked regions.",
+    "topic": "Chera",
+    "subtopic": "Religion",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 273,
+    "question": "Within the study of Chera, which description best matches Tamil-Malayalam linguistic interface?",
+    "options": [
+      "connected inland production with coastal exchange",
+      "a regular feature of west-coast maritime timing",
+      "important for understanding Chera historiography",
+      "a likely source of political revenue in port zones"
+    ],
+    "answer": 2,
+    "explanation": "Tamil-Malayalam linguistic interface is correctly associated with important for understanding Chera historiography.",
+    "topic": "Chera",
+    "subtopic": "Language and culture",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 274,
+    "question": "Within the study of Chera, which description best matches Agrarian hinterland-coast linkage?",
+    "options": [
+      "supported surplus in inland tracts",
+      "a regular feature of west-coast maritime timing",
+      "visible in religious institutions of Chera-linked regions",
+      "a structural basis of west-coast commerce"
+    ],
+    "answer": 3,
+    "explanation": "Agrarian hinterland-coast linkage is correctly associated with a structural basis of west-coast commerce.",
+    "topic": "Chera",
+    "subtopic": "Economy",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 275,
+    "question": "Within the study of Chera, which description best matches Craft production in port hinterlands?",
+    "options": [
+      "significant in the later first-millennium west-coast trade world",
+      "a ruler associated with Pattini-related literary memory",
+      "central to understanding Chera political economy",
+      "supported exchange circuits tied to maritime nodes"
+    ],
+    "answer": 3,
+    "explanation": "Craft production in port hinterlands is correctly associated with supported exchange circuits tied to maritime nodes.",
+    "topic": "Chera",
+    "subtopic": "Economy",
+    "difficulty": "Difficult"
+  }
+]

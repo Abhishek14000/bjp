@@ -1,0 +1,377 @@
+[
+  {
+    "id": 101,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: literary sources that require corroboration with archaeology and epigraphy?",
+    "options": [
+      "Palai",
+      "Sangam poems",
+      "Muvendar",
+      "Puram poetry"
+    ],
+    "answer": 1,
+    "explanation": "The matching entry is Sangam poems, which is associated with literary sources that require corroboration with archaeology and epigraphy.",
+    "topic": "Sangam Age",
+    "subtopic": "Historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 102,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a layered order beneath major dynastic authority?",
+    "options": [
+      "Korkai",
+      "Tamil-Brahmi inscriptions",
+      "Clan and chieftain politics",
+      "Purananuru"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is Clan and chieftain politics, which is associated with a layered order beneath major dynastic authority.",
+    "topic": "Sangam Age",
+    "subtopic": "Polity and chieftaincies",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 103,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: markers of Puram political culture?",
+    "options": [
+      "Pattuppattu",
+      "Tamil-Brahmi inscriptions",
+      "War drums and martial praise",
+      "Palai"
+    ],
+    "answer": 2,
+    "explanation": "The matching entry is War drums and martial praise, which is associated with markers of Puram political culture.",
+    "topic": "Sangam Age",
+    "subtopic": "Cultural life",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 104,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: visible in poetic voice, social roles, and kinship contexts?",
+    "options": [
+      "War drums and martial praise",
+      "Neytal",
+      "Nadukal (hero stones)",
+      "Women in Sangam literature"
+    ],
+    "answer": 3,
+    "explanation": "The matching entry is Women in Sangam literature, which is associated with visible in poetic voice, social roles, and kinship contexts.",
+    "topic": "Sangam Age",
+    "subtopic": "Society",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 105,
+    "question": "Which term, place, ruler, or institution in Sangam Age is associated with: a structural link between production zones and port towns?",
+    "options": [
+      "Inland-coastal exchange",
+      "Pattuppattu",
+      "Uraiyur",
+      "Muvendar"
+    ],
+    "answer": 0,
+    "explanation": "The matching entry is Inland-coastal exchange, which is associated with a structural link between production zones and port towns.",
+    "topic": "Sangam Age",
+    "subtopic": "Economic networks",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 106,
+    "question": "For source criticism in Sangam Age, which statement about Tolkappiyam is correct?",
+    "options": [
+      "It is associated with the collection known as the Ten Idylls in Sangam literature.",
+      "It is associated with the earliest extant Tamil grammatical treatise associated with Sangam tradition.",
+      "It is associated with the hill landscape in Tinai classification.",
+      "It is associated with a port strongly linked with pearl fisheries in Pandya territory."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Tolkappiyam to the earliest extant Tamil grammatical treatise associated with Sangam tradition, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 107,
+    "question": "For source criticism in Sangam Age, which statement about Ettuthokai is correct?",
+    "options": [
+      "It is associated with a structural link between production zones and port towns.",
+      "It is associated with the arid landscape in Tinai classification.",
+      "It is associated with an archaeological site showing Indo-Roman trade and craft links.",
+      "It is associated with a corpus of eight anthologies in Sangam literature."
+    ],
+    "answer": 3,
+    "explanation": "Available sources tie Ettuthokai to a corpus of eight anthologies in Sangam literature, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 108,
+    "question": "For source criticism in Sangam Age, which statement about Pattuppattu is correct?",
+    "options": [
+      "It is associated with a centre associated with early Chera tradition.",
+      "It is associated with the collection known as the Ten Idylls in Sangam literature.",
+      "It is associated with an early historic Chola centre in Tamil tradition.",
+      "It is associated with a poetic system linking landscapes with emotions and livelihoods."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Pattuppattu to the collection known as the Ten Idylls in Sangam literature, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 109,
+    "question": "For source criticism in Sangam Age, which statement about Akam poetry is correct?",
+    "options": [
+      "It is associated with themes of interior life and love.",
+      "It is associated with a major west-coast emporium tied to overseas trade.",
+      "It is associated with an early historic Chola centre in Tamil tradition.",
+      "It is associated with literary sources that require corroboration with archaeology and epigraphy."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Akam poetry to themes of interior life and love, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 110,
+    "question": "For source criticism in Sangam Age, which statement about Puram poetry is correct?",
+    "options": [
+      "It is associated with an archaeological context preceding and overlapping early historic developments.",
+      "It is associated with themes of war, valor, generosity, and public life.",
+      "It is associated with a core Pandya political and cultural centre in Sangam references.",
+      "It is associated with the Chera, Chola, and Pandya crowned lineages."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Puram poetry to themes of war, valor, generosity, and public life, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 111,
+    "question": "For source criticism in Sangam Age, which statement about Tinai is correct?",
+    "options": [
+      "It is associated with a poetic system linking landscapes with emotions and livelihoods.",
+      "It is associated with the pastoral/forest landscape in Tinai classification.",
+      "It is associated with markers of Puram political culture.",
+      "It is associated with key epigraphic evidence for early literacy and social history in Tamil regions."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Tinai to a poetic system linking landscapes with emotions and livelihoods, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 112,
+    "question": "For source criticism in Sangam Age, which statement about Kurinji is correct?",
+    "options": [
+      "It is associated with the hill landscape in Tinai classification.",
+      "It is associated with a key condition enabling seasonal overseas commerce.",
+      "It is associated with an early Chola-associated port city on the Coromandel coast.",
+      "It is associated with the Chera, Chola, and Pandya crowned lineages."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Kurinji to the hill landscape in Tinai classification, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 113,
+    "question": "For source criticism in Sangam Age, which statement about Mullai is correct?",
+    "options": [
+      "It is associated with a core Pandya political and cultural centre in Sangam references.",
+      "It is associated with an occupation associated with Neytal landscapes.",
+      "It is associated with an early historic Chola centre in Tamil tradition.",
+      "It is associated with the pastoral/forest landscape in Tinai classification."
+    ],
+    "answer": 3,
+    "explanation": "Available sources tie Mullai to the pastoral/forest landscape in Tinai classification, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 114,
+    "question": "For source criticism in Sangam Age, which statement about Marutam is correct?",
+    "options": [
+      "It is associated with the fertile agricultural landscape in Tinai classification.",
+      "It is associated with the coastal landscape in Tinai classification.",
+      "It is associated with themes of war, valor, generosity, and public life.",
+      "It is associated with archaeological evidence of long-distance exchange with the Mediterranean world."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Marutam to the fertile agricultural landscape in Tinai classification, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 115,
+    "question": "For source criticism in Sangam Age, which statement about Neytal is correct?",
+    "options": [
+      "It is associated with a major west-coast emporium tied to overseas trade.",
+      "It is associated with the coastal landscape in Tinai classification.",
+      "It is associated with the fertile agricultural landscape in Tinai classification.",
+      "It is associated with a key condition enabling seasonal overseas commerce."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Neytal to the coastal landscape in Tinai classification, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 116,
+    "question": "For source criticism in Sangam Age, which statement about Palai is correct?",
+    "options": [
+      "It is associated with an economic feature linked to Mullai settings.",
+      "It is associated with important carriers of praise-poetry and courtly memory.",
+      "It is associated with the arid landscape in Tinai classification.",
+      "It is associated with archaeological evidence of long-distance exchange with the Mediterranean world."
+    ],
+    "answer": 2,
+    "explanation": "Available sources tie Palai to the arid landscape in Tinai classification, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 117,
+    "question": "For source criticism in Sangam Age, which statement about Muvendar is correct?",
+    "options": [
+      "It is associated with key epigraphic evidence for early literacy and social history in Tamil regions.",
+      "It is associated with the Chera, Chola, and Pandya crowned lineages.",
+      "It is associated with an external account for first-century Indian Ocean trade including the Tamil coast.",
+      "It is associated with the hill landscape in Tinai classification."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Muvendar to the Chera, Chola, and Pandya crowned lineages, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 118,
+    "question": "For source criticism in Sangam Age, which statement about Muziris is correct?",
+    "options": [
+      "It is associated with a major west-coast emporium tied to overseas trade.",
+      "It is associated with an early historic Chola centre in Tamil tradition.",
+      "It is associated with a poetic system linking landscapes with emotions and livelihoods.",
+      "It is associated with an anthology centered on Akam (love/interior) themes."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Muziris to a major west-coast emporium tied to overseas trade, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 119,
+    "question": "For source criticism in Sangam Age, which statement about Korkai is correct?",
+    "options": [
+      "It is associated with an external account for first-century Indian Ocean trade including the Tamil coast.",
+      "It is associated with a port strongly linked with pearl fisheries in Pandya territory.",
+      "It is associated with themes of interior life and love.",
+      "It is associated with a poetic system linking landscapes with emotions and livelihoods."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Korkai to a port strongly linked with pearl fisheries in Pandya territory, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 120,
+    "question": "For source criticism in Sangam Age, which statement about Puhar (Kaveripattinam) is correct?",
+    "options": [
+      "It is associated with the arid landscape in Tinai classification.",
+      "It is associated with an early Chola-associated port city on the Coromandel coast.",
+      "It is associated with the fertile agricultural landscape in Tinai classification.",
+      "It is associated with a term commonly used for Greco-Roman foreigners in early Tamil sources."
+    ],
+    "answer": 1,
+    "explanation": "Available sources tie Puhar (Kaveripattinam) to an early Chola-associated port city on the Coromandel coast, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 121,
+    "question": "For source criticism in Sangam Age, which statement about Uraiyur is correct?",
+    "options": [
+      "It is associated with an early historic Chola centre in Tamil tradition.",
+      "It is associated with an anthology centered on Akam (love/interior) themes.",
+      "It is associated with the fertile agricultural landscape in Tinai classification.",
+      "It is associated with a motif tied to warfare and heroism in some landscapes."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Uraiyur to an early historic Chola centre in Tamil tradition, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 122,
+    "question": "For source criticism in Sangam Age, which statement about Madurai is correct?",
+    "options": [
+      "It is associated with a core Pandya political and cultural centre in Sangam references.",
+      "It is associated with an agrarian pattern associated with Marutam tracts.",
+      "It is associated with themes of interior life and love.",
+      "It is associated with visible in poetic voice, social roles, and kinship contexts."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Madurai to a core Pandya political and cultural centre in Sangam references, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 123,
+    "question": "For source criticism in Sangam Age, which statement about Vanji is correct?",
+    "options": [
+      "It is associated with a centre associated with early Chera tradition.",
+      "It is associated with archaeological evidence of long-distance exchange with the Mediterranean world.",
+      "It is associated with the collection known as the Ten Idylls in Sangam literature.",
+      "It is associated with the pastoral/forest landscape in Tinai classification."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Vanji to a centre associated with early Chera tradition, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": 124,
+    "question": "For source criticism in Sangam Age, which statement about Yavana is correct?",
+    "options": [
+      "It is associated with a term commonly used for Greco-Roman foreigners in early Tamil sources.",
+      "It is associated with literary sources that require corroboration with archaeology and epigraphy.",
+      "It is associated with a core Pandya political and cultural centre in Sangam references.",
+      "It is associated with material culture linked to late megalithic and early historic transitions."
+    ],
+    "answer": 0,
+    "explanation": "Available sources tie Yavana to a term commonly used for Greco-Roman foreigners in early Tamil sources, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  },
+  {
+    "id": 125,
+    "question": "For source criticism in Sangam Age, which statement about Periplus of the Erythraean Sea is correct?",
+    "options": [
+      "It is associated with the fertile agricultural landscape in Tinai classification.",
+      "It is associated with an archaeological site showing Indo-Roman trade and craft links.",
+      "It is associated with an external account for first-century Indian Ocean trade including the Tamil coast.",
+      "It is associated with markers of Puram political culture."
+    ],
+    "answer": 2,
+    "explanation": "Available sources tie Periplus of the Erythraean Sea to an external account for first-century Indian Ocean trade including the Tamil coast, not to the alternative pairings listed.",
+    "topic": "Sangam Age",
+    "subtopic": "Sources and historiography",
+    "difficulty": "Difficult"
+  }
+]
